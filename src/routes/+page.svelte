@@ -7,11 +7,16 @@
     ListItem,
     OrderedList,
     Row,
+    StructuredList,
+    StructuredListHead,
+    StructuredListRow,
+    StructuredListCell,
+    StructuredListBody
   } from "carbon-components-svelte";
 
 
-  export let data;
-  console.log(data.stores)
+  export let data: Stores;
+  console.log(data.stores);
 </script>
 
 <svelte:head>
@@ -53,21 +58,42 @@
         </p>
       </Column>
     </Row>
-        <Row padding>
-          <Column>
-            <h2>参加方法・ルール</h2>
-            <OrderedList native>
-              <ListItem>参加店舗または販売協力店で「さかずきんバッジ」を事前購入。</ListItem>
-              <ListItem>10月1日はさかずきんバッジをつけて日本酒の日をアピール。</ListItem>
-              <ListItem>LINEイベント・LINEチャットでリアルタイムに情報配信予定。</ListItem>
-              <ListItem>参加店舗ではしご酒！各店舗にタッグを組む蔵元さんが来店されます。</ListItem>
-            </OrderedList>
-          </Column>
-        </Row>
     <Row padding>
       <Column>
+        <h2>参加方法・ルール</h2>
+        <OrderedList expressive style="margin-left: 2em">
+          <ListItem>参加店舗または販売協力店で「さかずきんバッジ」を事前購入。</ListItem>
+          <ListItem>10月1日はさかずきんバッジをつけて日本酒の日をアピール。</ListItem>
+          <ListItem>LINEイベント・LINEチャットでリアルタイムに情報配信予定。</ListItem>
+          <ListItem>参加店舗ではしご酒！各店舗にタッグを組む蔵元さんが来店されます。</ListItem>
+        </OrderedList>
+      </Column>
+    </Row>
+    <Row padding>
+      <Column>
+        <h2>参加店舗</h2>
+        <StructuredList>
+          <StructuredListHead>
+            <StructuredListRow head>
+              <StructuredListCell head>店舗</StructuredListCell>
+              <StructuredListCell head>蔵元</StructuredListCell>
+            </StructuredListRow>
+          </StructuredListHead>
+          <StructuredListBody>
+            {#each data.stores as store}
+              <StructuredListRow>
+                <StructuredListCell>{store.name}</StructuredListCell>
+                <StructuredListCell>{store.kuramoto}</StructuredListCell>
+              </StructuredListRow>
+            {/each}
+          </StructuredListBody>
+        </StructuredList>
+      </Column>
+    </Row>
+    <Row>
+      <Column>
         <h2>参加店舗・地図</h2>
-        <!--TODO responsive-->
+        <!--TODO 地図埋め込みは重いので、手書き地図画像に差し替えて、GoogleMapはリンクで遷移させるようにする-->
         <iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&ehbc=2E312F" width="360"
           height="600"
