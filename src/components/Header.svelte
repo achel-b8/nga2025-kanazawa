@@ -12,7 +12,7 @@
   let isSideNavOpen = false;
 </script>
 
-<Header platformName="日本酒ゴーアラウンド金沢2023" bind:isSideNavOpen>
+<Header platformName="日本酒ゴーアラウンド金沢2023" bind:isSideNavOpen class="custom-header">
   <svelte:fragment slot="skip-to-content">
     <SkipToContent />
   </svelte:fragment>
@@ -25,3 +25,9 @@
   </SideNavItems>
 </SideNav>
 
+<!--&lt;!&ndash;ヘッダー色の変更を検討する&ndash;&gt;-->
+<!--<style>-->
+<!--    :global(.bx&#45;&#45;header) {-->
+<!--        background-color: #123456 !important;-->
+<!--    }-->
+<!--</style>-->

@@ -1,13 +1,17 @@
 <script lang="ts">
-  import "carbon-components-svelte/css/white.css";
+  import "carbon-components-svelte/css/g10.css";
   import Header from "../components/Header.svelte";
   import {
+    Column,
     Content,
     Grid,
     Row,
-    Column,
+    Theme,
   } from "carbon-components-svelte";
+
 </script>
+
+<Theme theme="g10" />
 
 <!-- Header -->
 <Header />

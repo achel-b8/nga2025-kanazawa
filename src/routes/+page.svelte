@@ -1,9 +1,11 @@
 <script lang="ts">
   import {
-    Grid,
-    Row,
     Column,
-    ImageLoader
+    Grid,
+    ImageLoader,
+    ListItem,
+    OrderedList,
+    Row,
   } from "carbon-components-svelte";
   // import type { PageData } from './$types';
 
@@ -42,14 +44,17 @@
         </p>
       </Column>
     </Row>
-    <!--    <Row padding>-->
-    <!--      <Column>-->
-    <!--        <h2>参加方法</h2>-->
-    <!--        <p>-->
-    <!--          説明説明説明-->
-    <!--        </p>-->
-    <!--      </Column>-->
-    <!--    </Row>-->
+        <Row padding>
+          <Column>
+            <h2>参加方法・ルール</h2>
+            <OrderedList native>
+              <ListItem>参加店舗または販売協力店で「さかずきんバッジ」を事前購入。</ListItem>
+              <ListItem>10月1日はさかずきんバッジをつけて日本酒の日をアピール。</ListItem>
+              <ListItem>LINEイベント・LINEチャットでリアルタイムに情報発信予定。</ListItem>
+              <ListItem>参加店舗ではしご酒！各店舗にタッグを組む蔵元さんが来店されます。</ListItem>
+            </OrderedList>
+          </Column>
+        </Row>
     <Row padding>
       <Column>
         <h2>参加店舗・地図</h2>
