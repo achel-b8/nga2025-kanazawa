@@ -8,9 +8,9 @@
     OrderedList,
     Row,
   } from "carbon-components-svelte";
-  import type { PageData } from './$types';
 
-  export let data: PageData;
+
+  export let data;
   console.log(data.stores)
 </script>
 
