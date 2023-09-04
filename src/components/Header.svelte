@@ -12,7 +12,12 @@
   let isSideNavOpen = false;
 </script>
 
-<Header platformName="日本酒ゴーアラウンド金沢2023" bind:isSideNavOpen class="custom-header">
+<Header
+  bind:isSideNavOpen
+  class="custom-header"
+  href="./"
+  platformName="日本酒ゴーアラウンド金沢2023"
+>
   <svelte:fragment slot="skip-to-content">
     <SkipToContent />
   </svelte:fragment>

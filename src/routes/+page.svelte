@@ -8,9 +8,10 @@
     OrderedList,
     Row,
   } from "carbon-components-svelte";
-  // import type { PageData } from './$types';
+  import type { PageData } from './$types';
 
-  // export let data: PageData;
+  export let data: PageData;
+  console.log(data.stores)
 </script>
 
 <svelte:head>
