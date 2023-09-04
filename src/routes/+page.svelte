@@ -25,8 +25,10 @@
           <!--TODO style設定の外だし、画像の軽量化-->
           <ImageLoader
             alt="メインビジュアル"
-            style="max-height: 993px; max-width: 702px;"
+            style="width:100%; height:auto; object-fit:cover; max-width: 600px"
             src="mainVisual.webp"
+            height="850px"
+            width="600px"
           >
             <svelte:fragment slot="loading">
               <InlineLoading />
