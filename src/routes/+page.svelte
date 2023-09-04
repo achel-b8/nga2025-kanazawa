@@ -3,6 +3,7 @@
     Column,
     Grid,
     ImageLoader,
+    InlineLoading,
     ListItem,
     OrderedList,
     Row,
@@ -26,7 +27,12 @@
             alt="メインビジュアル"
             style="max-height: 993px; max-width: 702px;"
             src="mainVisual.webp"
-          />
+          >
+            <svelte:fragment slot="loading">
+              <InlineLoading />
+            </svelte:fragment>
+            <svelte:fragment slot="error">An error occurred.</svelte:fragment>
+          </ImageLoader>
         </h1>
       </Column>
     </Row>
@@ -50,7 +56,7 @@
             <OrderedList native>
               <ListItem>参加店舗または販売協力店で「さかずきんバッジ」を事前購入。</ListItem>
               <ListItem>10月1日はさかずきんバッジをつけて日本酒の日をアピール。</ListItem>
-              <ListItem>LINEイベント・LINEチャットでリアルタイムに情報発信予定。</ListItem>
+              <ListItem>LINEイベント・LINEチャットでリアルタイムに情報配信予定。</ListItem>
               <ListItem>参加店舗ではしご酒！各店舗にタッグを組む蔵元さんが来店されます。</ListItem>
             </OrderedList>
           </Column>
