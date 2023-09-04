@@ -9,5 +9,6 @@ import url from 'url';
 export const fetchStores = (): string => {
 	const __filename = url.fileURLToPath(import.meta.url);
 	const __dirname = path.dirname(__filename);
+	const filePath = path.join(__dirname, 'stores.json');
 	return fs.readFileSync(path.resolve(__dirname, './stores.json'), 'utf-8');
 };
