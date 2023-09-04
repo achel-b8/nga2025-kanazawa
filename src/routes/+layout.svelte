@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import "carbon-components-svelte/css/white.css";
   import Header from "../components/Header.svelte";
   import {
@@ -7,6 +7,11 @@
     Row,
     Column,
   } from "carbon-components-svelte";
+
+  // Inject the Analytics functionality
+  import { dev } from '$app/environment';
+  import { inject } from '@vercel/analytics';
+  inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <!-- Header -->

@@ -1,6 +1,7 @@
 {
   "stores": [
     {
+      "id": 1,
       "name": "日本酒バル 金澤酒趣",
       "address": "石川県金沢市尾山町5-10.",
       "phoneNumber": "0762257339",
@@ -18,6 +19,7 @@
       "additionalNotes": ""
     },
     {
+      "id": 2,
       "name": "日々魚数寄 東木",
       "address": "石川県金沢市尾張町1-5-3",
       "phoneNumber": "0762244266",
@@ -35,6 +37,7 @@
       "additionalNotes": ""
     },
     {
+      "id": 3,
       "name": "燗九郎 小料理とおでん",
       "address": "石川県金沢市片町2-5-8",
       "phoneNumber": "0762220096",
@@ -52,6 +55,7 @@
       "additionalNotes": ""
     },
     {
+      "id": 4,
       "name": "神鮮 和さび",
       "address": "石川県金沢市本町2-5-9",
       "phoneNumber": "0762601181",
@@ -69,6 +73,7 @@
       "additionalNotes": ""
     },
     {
+      "id": 5,
       "name": "酒粋醍醐 金沢店",
       "address": "石川県金沢市安江町19-4",
       "phoneNumber": "0762560028",
@@ -86,6 +91,7 @@
       "additionalNotes": ""
     },
     {
+      "id": 6,
       "name": "日本酒真琴",
       "address": "石川県金沢市東山1丁目5-3",
       "phoneNumber": "0762053800",
@@ -103,6 +109,7 @@
       "additionalNotes": ""
     },
     {
+      "id": 7,
       "name": "よし坊",
       "address": "石川県金沢市香林坊2-4-21",
       "phoneNumber": "0762218048",
@@ -120,6 +127,7 @@
       "additionalNotes": ""
     },
     {
+      "id": 8,
       "name": "Ramen&Bar ABRI",
       "address": "",
       "phoneNumber": "",
@@ -137,6 +145,7 @@
       "additionalNotes": ""
     },
     {
+      "id": 9,
       "name": "Japanese Sake Bar 粋酔",
       "address": "",
       "phoneNumber": "",

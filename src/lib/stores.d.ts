@@ -1,4 +1,5 @@
 interface RawStore {
+	id: number;
 	name: string;
 	address: string;
 	phoneNumber: string;
@@ -25,4 +26,12 @@ interface FormattedFields {
 	kuramotoEndTime: Date | null;
 }
 
+interface ParsedJson {
+	stores: RawStore[];
+}
+
 type Store = Omit<RawStore, keyof FormattedFields> & FormattedFields;
+
+interface Stores {
+	stores: Store[];
+}

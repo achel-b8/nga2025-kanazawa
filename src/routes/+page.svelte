@@ -1,14 +1,18 @@
-<script>
+<script lang="ts">
   import {
     Grid,
     Row,
     Column,
     ImageLoader
   } from "carbon-components-svelte";
+  import type { PageData } from './$types';
+
+  export let data: PageData;
+  console.log(data.stores);
 </script>
 
 <svelte:head>
-  <title>日本酒ゴーアラウンド2023金沢 公式サイト</title>
+  <title>日本酒ゴーアラウンド金沢2023 公式サイト</title>
 </svelte:head>
 
 <main>
@@ -16,11 +20,11 @@
     <Row>
       <Column padding>
         <h1>
-          <!--TODO style設定の外だし-->
+          <!--TODO style設定の外だし、画像の軽量化-->
           <ImageLoader
             alt="メインビジュアル"
             style="max-height: 993px; max-width: 702px;"
-            src="mainVisual.jpg"
+            src="mainVisual.webp"
           />
         </h1>
       </Column>
@@ -39,20 +43,22 @@
         </p>
       </Column>
     </Row>
-<!--    <Row padding>-->
-<!--      <Column>-->
-<!--        <h2>参加方法</h2>-->
-<!--        <p>-->
-<!--          説明説明説明-->
-<!--        </p>-->
-<!--      </Column>-->
-<!--    </Row>-->
+    <!--    <Row padding>-->
+    <!--      <Column>-->
+    <!--        <h2>参加方法</h2>-->
+    <!--        <p>-->
+    <!--          説明説明説明-->
+    <!--        </p>-->
+    <!--      </Column>-->
+    <!--    </Row>-->
     <Row padding>
       <Column>
         <h2>参加店舗・地図</h2>
         <!--TODO responsive-->
         <iframe
-          src="https://www.google.com/maps/d/u/0/embed?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&ehbc=2E312F" width="360" height="600"
+          src="https://www.google.com/maps/d/u/0/embed?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&ehbc=2E312F" width="360"
+          height="600"
+          loading="lazy"
           title="マップ"
         />
       </Column>
