@@ -1,6 +1,5 @@
-export const formatStoreResponse = (json: string): Store[] => {
-	const parsed: ParsedJson = JSON.parse(json);
-	const rawStores = parsed.stores;
+export const formatStoreResponse = (json: ResponseJson): Store[] => {
+	const rawStores = json.stores;
 
 	return rawStores.map((raw) => format(raw));
 };
