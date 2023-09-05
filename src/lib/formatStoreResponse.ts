@@ -1,3 +1,5 @@
+import type { RawStore, ResponseJson, Store } from "../types/stores";
+
 export const formatStoreResponse = (json: ResponseJson): Store[] => {
 	const rawStores = json.stores;
 
@@ -12,8 +14,8 @@ const format = (rawStore: RawStore): Store => {
 	return {
 		...rawStore,
 		salesStartTime: new Date(rawStore.salesStartTime),
-		sakesBreakStartTime: convertToDate(rawStore.sakesBreakStartTime),
-		sakesBreakEndTime: convertToDate(rawStore.sakesBreakEndTime),
+		salesBreakStartTime: convertToDate(rawStore.salesBreakStartTime),
+		salesBreakEndTime: convertToDate(rawStore.salesBreakEndTime),
 		salesEndTime: new Date(rawStore.salesEndTime),
 		kuramotoStartTime: convertToDate(rawStore.kuramotoStartTime),
 		kuramotoEndTime: convertToDate(rawStore.kuramotoEndTime)

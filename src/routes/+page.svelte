@@ -7,16 +7,10 @@
     ListItem,
     OrderedList,
     Row,
-    StructuredList,
-    StructuredListHead,
-    StructuredListRow,
-    StructuredListCell,
-    StructuredListBody
   } from "carbon-components-svelte";
+  import TopStoreList from "../components/TopStoreList.svelte";
 
-
-  export let data: Stores;
-  console.log(data.stores);
+  export let data;
 </script>
 
 <svelte:head>
@@ -72,22 +66,7 @@
     <Row padding>
       <Column>
         <h2>参加店舗</h2>
-        <StructuredList>
-          <StructuredListHead>
-            <StructuredListRow head>
-              <StructuredListCell head>店舗</StructuredListCell>
-              <StructuredListCell head>蔵元</StructuredListCell>
-            </StructuredListRow>
-          </StructuredListHead>
-          <StructuredListBody>
-            {#each data.stores as store}
-              <StructuredListRow>
-                <StructuredListCell>{store.name}</StructuredListCell>
-                <StructuredListCell>{store.kuramoto}</StructuredListCell>
-              </StructuredListRow>
-            {/each}
-          </StructuredListBody>
-        </StructuredList>
+        <TopStoreList stores="{data.stores}" />
       </Column>
     </Row>
     <Row>

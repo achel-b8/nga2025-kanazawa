@@ -1,11 +1,11 @@
-interface RawStore {
+export interface RawStore {
 	id: number;
 	name: string;
 	address: string;
 	phoneNumber: string;
 	salesStartTime: string;
-	sakesBreakStartTime: string | null;
-	sakesBreakEndTime: string | null;
+	salesBreakStartTime: string | null;
+	salesBreakEndTime: string | null;
 	salesEndTime: string;
 	kuramoto: string;
 	kuramotoStartTime: string | null;
@@ -17,21 +17,21 @@ interface RawStore {
 	additionalNotes: string | null;
 }
 
-interface FormattedFields {
+export interface FormattedFields {
 	salesStartTime: Date;
-	sakesBreakStartTime: Date | null;
-	sakesBreakEndTime: Date | null;
+	salesBreakStartTime: Date | null;
+	salesBreakEndTime: Date | null;
 	salesEndTime: Date;
 	kuramotoStartTime: Date | null;
 	kuramotoEndTime: Date | null;
 }
 
-interface ResponseJson {
+export interface ResponseJson {
 	stores: RawStore[];
 }
 
-type Store = Omit<RawStore, keyof FormattedFields> & FormattedFields;
+export type Store = Omit<RawStore, keyof FormattedFields> & FormattedFields;
 
-interface Stores {
+export interface Stores {
 	stores: Store[];
 }
