@@ -1,4 +1,5 @@
 import adapter from '@sveltejs/adapter-vercel';
+import sveltePreprocess from 'svelte-preprocess';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import { optimizeImports, elements } from "carbon-preprocess-svelte";
 
@@ -6,7 +7,17 @@ import { optimizeImports, elements } from "carbon-preprocess-svelte";
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: [vitePreprocess(), optimizeImports(), elements()],
+	preprocess: [
+		sveltePreprocess({
+			sourceMap: !process.env.production,
+			typescript: {
+				tsconfigFile: './tsconfig.json',
+			},
+		}),
+		vitePreprocess(),
+		optimizeImports(),
+		elements()
+	],
 
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
