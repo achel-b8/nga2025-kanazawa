@@ -8,12 +8,6 @@ const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
 	preprocess: [
-		sveltePreprocess({
-			sourceMap: !process.env.production,
-			typescript: {
-				tsconfigFile: './tsconfig.json',
-			},
-		}),
 		vitePreprocess(),
 		optimizeImports(),
 		elements()
