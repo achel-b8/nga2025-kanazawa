@@ -26,7 +26,7 @@ export interface FormattedFields {
     kuramotoEndTime: Date | null;
 }
 
-export interface ResponseJson {
+export interface RawStores {
     stores: RawStore[];
 }
 

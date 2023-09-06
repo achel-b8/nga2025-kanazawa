@@ -1,8 +1,6 @@
-import type {RawStore, ResponseJson, Store} from "../types/stores";
+import type {RawStore, Store} from "../types/stores";
 
-export const formatStoreResponse = (json: ResponseJson): Store[] => {
-    const rawStores = json.stores;
-
+export const formatStoreResponse = (rawStores: RawStore[]): Store[] => {
     return rawStores.map((raw) => format(raw));
 };
 

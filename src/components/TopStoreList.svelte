@@ -7,9 +7,9 @@
         StructuredListRow
     } from 'carbon-components-svelte';
     import {format} from 'date-fns';
-    import type {Stores} from "../types/stores";
+    import type {Store} from "../types/stores";
 
-    export let stores: Stores;
+    export let stores: Store[];
 
     const formatTime = (time: Date) => {
 

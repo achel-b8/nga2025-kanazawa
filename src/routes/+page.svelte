@@ -73,17 +73,23 @@
         </Row>
         <Row>
             <Column>
-                <h2>参加店舗・地図</h2>
-                <!--TODO 地図埋め込みは重いので、手書き地図画像に差し替えて、GoogleMapはリンクで遷移させるようにする-->
-                <iframe
-                        src="https://www.google.com/maps/d/u/0/embed?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&ehbc=2E312F"
-                        width="360"
-                        height="600"
-                        loading="lazy"
-                        title="マップ"
-                />
+                <h2>地図</h2>
+                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&femb=1&ll=36.56828052527098%2C136.65723954999999&z=16">Googleマイマップ</a> も提供しています。
+                <a href="./map1920.png">
+                    <ImageLoader
+                            alt="メインビジュアル"
+                            style="width:100%; height:auto; object-fit:cover; max-width: 640px"
+                            src="map640.webp"
+                            height="452px"
+                            width="640px"
+                    >
+                        <svelte:fragment slot="loading">
+                            <InlineLoading/>
+                        </svelte:fragment>
+                        <svelte:fragment slot="error">An error occurred.</svelte:fragment>
+                    </ImageLoader>
+                </a>
             </Column>
         </Row>
     </Grid>
-
 </main>

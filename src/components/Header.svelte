@@ -2,12 +2,14 @@
     import {
         Header,
         SideNav,
+        SideNavDivider,
         SideNavItems,
         SideNavLink,
         SkipToContent
     } from "carbon-components-svelte";
     import Home from "carbon-icons-svelte/lib/Home.svelte";
-    import FruitBowl from "carbon-icons-svelte/lib/FruitBowl.svelte";
+    import Bar from "carbon-icons-svelte/lib/Bar.svelte";
+    import Location from "carbon-icons-svelte/lib/Location.svelte";
 
     let isSideNavOpen = false;
 </script>
@@ -26,7 +28,13 @@
 <SideNav bind:isOpen={isSideNavOpen}>
     <SideNavItems>
         <SideNavLink icon={Home} text="Home" href="/" isSelected/>
-        <SideNavLink icon={FruitBowl} text="参加店舗（準備中）" href="/"/>
+        <SideNavLink icon={Bar} text="参加店舗（準備中）" href="/"/>
+        <SideNavDivider/>
+        <SideNavLink
+                icon="{Location}"
+                href="https://www.google.com/maps/d/u/0/viewer?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&femb=1&ll=36.56828052527098%2C136.65723954999999&z=16"
+                text="Googleマイマップ"
+        />
     </SideNavItems>
 </SideNav>
 
