@@ -67,14 +67,11 @@
         </Row>
         <Row padding>
             <Column>
-                <h2>参加店舗</h2>
-                <TopStoreList stores="{data.stores}"/>
-            </Column>
-        </Row>
-        <Row>
-            <Column>
                 <h2>地図</h2>
-                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&femb=1&ll=36.56828052527098%2C136.65723954999999&z=16">Googleマイマップ</a> も提供しています。
+                <strong>
+                    <a href="https://www.google.com/maps/d/u/0/viewer?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&femb=1&ll=36.56828052527098%2C136.65723954999999&z=16">Googleマイマップ</a>
+                </strong>
+                も提供しています。
                 <a href="./map1920.png">
                     <ImageLoader
                             alt="メインビジュアル"
@@ -89,6 +86,12 @@
                         <svelte:fragment slot="error">An error occurred.</svelte:fragment>
                     </ImageLoader>
                 </a>
+            </Column>
+        </Row>
+        <Row padding>
+            <Column>
+                <h2>参加店舗</h2>
+                <TopStoreList stores="{data.stores}"/>
             </Column>
         </Row>
     </Grid>
