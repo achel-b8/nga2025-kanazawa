@@ -19,6 +19,7 @@
 </svelte:head>
 
 <main>
+    <h1>日本酒ゴーアラウンド金沢2023 公式サイト</h1>
     <Grid noGutter>
         <Row>
             <Column padding>
@@ -68,10 +69,12 @@
         <Row padding>
             <Column>
                 <h2>地図</h2>
-                <strong>
-                    <a href="https://www.google.com/maps/d/u/0/viewer?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&femb=1&ll=36.56828052527098%2C136.65723954999999&z=16">Googleマイマップ</a>
-                </strong>
-                も提供しています。
+                <p>
+                    <strong>
+                        <a href="https://www.google.com/maps/d/u/0/viewer?mid=1U0tKEJ0QEQvCCn23VLKqJ87QjAwXhRw&femb=1&ll=36.56828052527098%2C136.65723954999999&z=16">Googleマイマップ</a>
+                    </strong>
+                    も提供しています。
+                </p>
                 <a href="./map1920.png">
                     <ImageLoader
                             alt="メインビジュアル"
