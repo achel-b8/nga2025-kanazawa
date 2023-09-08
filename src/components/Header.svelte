@@ -10,6 +10,7 @@
     import Home from "carbon-icons-svelte/lib/Home.svelte";
     import Bar from "carbon-icons-svelte/lib/Bar.svelte";
     import Location from "carbon-icons-svelte/lib/Location.svelte";
+    import {page} from '$app/stores';
 
     let isSideNavOpen = false;
 </script>
@@ -27,8 +28,8 @@
 
 <SideNav bind:isOpen={isSideNavOpen}>
     <SideNavItems>
-        <SideNavLink icon={Home} text="Home" href="/" isSelected/>
-        <SideNavLink icon={Bar} text="参加店舗（準備中）" href="/"/>
+        <SideNavLink icon={Home} text="Home" href="/" isSelected={$page.url.pathname==='/'}/>
+        <SideNavLink icon={Bar} text="参加店舗（準備中）" href="/stores" isSelected={$page.url.pathname==='/stores'}/>
         <SideNavDivider/>
         <SideNavLink
                 icon="{Location}"

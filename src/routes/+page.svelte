@@ -23,7 +23,7 @@
     <Grid noGutter>
         <Row>
             <Column padding>
-                <h1>
+                <h2>
                     <!--TODO style設定の外だし、画像の軽量化-->
                     <ImageLoader
                             alt="メインビジュアル"
@@ -37,7 +37,7 @@
                         </svelte:fragment>
                         <svelte:fragment slot="error">An error occurred.</svelte:fragment>
                     </ImageLoader>
-                </h1>
+                </h2>
             </Column>
         </Row>
     </Grid>
