@@ -29,7 +29,7 @@
 <SideNav bind:isOpen={isSideNavOpen}>
     <SideNavItems>
         <SideNavLink icon={Home} text="Home" href="/" isSelected={$page.url.pathname==='/'}/>
-        <SideNavLink icon={Bar} text="参加店舗（準備中）" href="/stores" isSelected={$page.url.pathname==='/stores'}/>
+        <SideNavLink icon={Bar} text="参加店舗" href="/stores" isSelected={$page.url.pathname==='/stores'}/>
         <SideNavDivider/>
         <SideNavLink
                 icon="{Location}"

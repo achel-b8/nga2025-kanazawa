@@ -15,6 +15,7 @@ export interface RawStore {
     appetizerPrice: number | null;
     timeLimit: string | null;
     additionalNotes: string | null;
+    mapUrl: string;
 }
 
 export interface FormattedFields {

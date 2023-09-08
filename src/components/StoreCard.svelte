@@ -8,14 +8,19 @@
     } from "carbon-components-svelte";
     import type {Store} from "../types/stores";
     import BusinessTimeCell from "./BusinessTimeCell.svelte";
+    import {goto} from "$app/navigation";
 
     export let store: Store
 </script>
 
-<Tile style="margin-left: 16px; margin-right: 16px">
-    <h2 style="font-size: 1.2rem">{store.name} × {store.kuramoto}</h2>
+<Tile style="margin-left: 16px; margin-right: 16px; cursor: pointer;" on:click={() => goto('/stores/' + store.id)}>
+    <h2 style="font-size: 1.2rem">{store.name} </h2>
     <StructuredList flush style="margin-bottom: 0px">
         <StructuredListBody>
+            <StructuredListRow>
+                <StructuredListCell>蔵元</StructuredListCell>
+                <StructuredListCell>{store.kuramoto}</StructuredListCell>
+            </StructuredListRow>
             <StructuredListRow>
                 <StructuredListCell>料金</StructuredListCell>
                 <StructuredListCell>\{store.appetizerPrice || '未定'}</StructuredListCell>
