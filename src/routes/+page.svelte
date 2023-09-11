@@ -15,6 +15,7 @@
 </script>
 
 <svelte:head>
+    <meta property="og:title" content="日本酒ゴーアラウンド金沢2023 公式サイト">
     <title>日本酒ゴーアラウンド金沢2023 公式サイト</title>
 </svelte:head>
 
