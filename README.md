@@ -5,7 +5,7 @@ https://nga-kanazawa.com/
 ## 利用技術
 - Vercel
 - Sveltekit
-- Carbon Components Svelte
+- Carbon Components Svelte  
   (導入は楽だが機能的にもデザイン的にも貧弱なので、来年も運用やるなら乗り換えたい…)
 
 ## 仕様についての特筆事項
