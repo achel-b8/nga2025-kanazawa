@@ -136,8 +136,8 @@
     {
       "id": 8,
       "name": "Ramen&Bar ABRI",
-      "address": "",
-      "phoneNumber": "",
+      "address": "石川県金沢市香林坊2-12-39",
+      "phoneNumber": "076-225-7672",
       "salesStartTime": "2023-10-01 00:00:00",
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
@@ -155,8 +155,8 @@
     {
       "id": 9,
       "name": "Japanese Sake Bar 粋酔",
-      "address": "",
-      "phoneNumber": "",
+      "address": "石川県金沢市片町1-5-26 アパ片町No1ビル2F",
+      "phoneNumber": "090-1317-1141",
       "salesStartTime": "2023-10-01 00:00:00",
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,

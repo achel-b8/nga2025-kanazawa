@@ -1,5 +1,7 @@
 <script lang="ts">
     import {
+        ImageLoader,
+        InlineLoading,
         StructuredList,
         StructuredListBody,
         StructuredListCell,
@@ -14,7 +16,18 @@
 </script>
 
 <Tile style="margin-left: 16px; margin-right: 16px; cursor: pointer;" on:click={() => goto('/stores/' + store.id)}>
-    <h2 style="font-size: 1.2rem">{store.name} </h2>
+    <ImageLoader
+            alt="{store.name}"
+            style="width:100%; height:auto; object-fit:cover; max-width: 1080px"
+            src="/stores/{store.id}.webp"
+            height="1080px"
+            width="1080px"
+    >
+        <svelte:fragment slot="loading">
+            <InlineLoading/>
+        </svelte:fragment>
+        <svelte:fragment slot="error">An error occurred.</svelte:fragment>
+    </ImageLoader>
     <StructuredList flush style="margin-bottom: 0px">
         <StructuredListBody>
             <StructuredListRow>
