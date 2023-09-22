@@ -29,6 +29,14 @@
             title="10/1当日のごあんない"
             caption="10/1開催期間中はLINEを活用します。公式LINEアカウントから情報発信を行うほか、LINEオープンチャットで参加者どうしの交流を行います。ぜひご登録を！"
     />
+    <ToastNotification
+            fullWidth
+            hideCloseButton
+            lowContrast
+            kind="info"
+            title="お通し情報追加のお知らせ"
+            caption="参加店舗ページに、各店舗で提供されるお通しの情報を追加しました。"
+    />
     <h1>日本酒ゴーアラウンド金沢2023 公式サイト</h1>
     <Grid noGutter>
         <Row>

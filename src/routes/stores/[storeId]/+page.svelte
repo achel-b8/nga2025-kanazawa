@@ -51,7 +51,7 @@
                     <StructuredListCell>\{data.store.appetizerPrice || '未定'}</StructuredListCell>
                 </StructuredListRow>
                 <StructuredListRow>
-                    <StructuredListCell>突き出し</StructuredListCell>
+                    <StructuredListCell>お通し</StructuredListCell>
                     <StructuredListCell>{data.store.appetizer || '未定'}</StructuredListCell>
                 </StructuredListRow>
                 <StructuredListRow>
