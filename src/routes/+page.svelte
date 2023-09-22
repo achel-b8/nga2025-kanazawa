@@ -77,12 +77,12 @@
             <Column>
                 <h2>参加方法・ルール</h2>
                 <OrderedList expressive style="margin-left: 2em">
-                    <ListItem>参加店舗または販売協力店で「さかずきんバッジ」を事前購入。</ListItem>
-                    <ListItem>10月1日はさかずきんバッジをつけて日本酒の日をアピール。</ListItem>
-                    <ListItem><strong>LINEイベント・LINEチャット</strong>でリアルタイムに情報配信予定。</ListItem>
-                    <ListItem>参加店舗ではしご酒！各店舗にタッグを組む蔵元さんが来店されます。</ListItem>
-                    <ListItem><strong>和らぎ水の持ち込み推奨。</strong>混雑時など、お店によってはご用意でない場合もあります。
-                    </ListItem>
+                    <ListItem>事前に参加店舗で「さかずきんバッジ」を購入。（事前購入推奨ですが、当日も\800で販売あり）</ListItem>
+                    <ListItem>10月1日はさかずきんバッジを胸元につけて日本酒の日をアピール。</ListItem>
+                    <ListItem>参加店舗ではしご酒！各店舗でふるまい酒とお通しが提供されます。また、各店舗とタッグを組む蔵元さんが来店されます。</ListItem>
+                    <ListItem>その後は追加の料理やお酒を楽しむもよし、蔵元さんとの語らいを楽しむのもよし、次の店へゴーアラウンドするもよし。</ListItem>
+                    <ListItem>日本酒ゴーアラウンド金沢では<strong>LINEイベント・LINEチャット</strong>でリアルタイムに情報配信予定。</ListItem>
+                    <ListItem>当日は<strong>和らぎ水の持ち込みを推奨。</strong>混雑時など、お店によってはご用意でない場合もあります。</ListItem>
                 </OrderedList>
             </Column>
         </Row>
