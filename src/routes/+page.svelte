@@ -7,6 +7,7 @@
         ListItem,
         OrderedList,
         Row,
+        ToastNotification
     } from "carbon-components-svelte";
     import TopStoreList from "../components/TopStoreList.svelte";
     import type {Stores} from "../types/stores";
@@ -20,6 +21,14 @@
 </svelte:head>
 
 <main>
+    <ToastNotification
+            fullWidth
+            hideCloseButton
+            lowContrast
+            kind="info"
+            title="10/1当日のごあんない"
+            caption="10/1開催期間中はLINEを活用します。公式LINEアカウントから情報発信を行うほか、LINEオープンチャットで参加者どうしの交流を行います。ぜひご登録を！"
+    />
     <h1>日本酒ゴーアラウンド金沢2023 公式サイト</h1>
     <Grid noGutter>
         <Row>
@@ -62,9 +71,36 @@
                 <OrderedList expressive style="margin-left: 2em">
                     <ListItem>参加店舗または販売協力店で「さかずきんバッジ」を事前購入。</ListItem>
                     <ListItem>10月1日はさかずきんバッジをつけて日本酒の日をアピール。</ListItem>
-                    <ListItem>LINEイベント・LINEチャットでリアルタイムに情報配信予定。</ListItem>
+                    <ListItem><strong>LINEイベント・LINEチャット</strong>でリアルタイムに情報配信予定。</ListItem>
                     <ListItem>参加店舗ではしご酒！各店舗にタッグを組む蔵元さんが来店されます。</ListItem>
+                    <ListItem><strong>和らぎ水の持ち込み推奨。</strong>混雑時など、お店によってはご用意でない場合もあります。
+                    </ListItem>
                 </OrderedList>
+            </Column>
+        </Row>
+        <Row padding>
+            <Column>
+                <h2>LINEアカウント</h2>
+                <Grid>
+                    <Row padding>
+                        <Column sm={4} lg={8}>
+                            <h3 style="font-size: 1.5rem">公式LINEアカウント</h3>
+                            <!--TODO スタイル設定めんどいので改行で雑実装した-->
+                            <p>各店舗からのリアルタイムでの情報発信を行います。<br><br></p>
+                            <a href="https://lin.ee/PXeHmfx" target="_blank">
+                                <img alt="公式LINEアカウント" src="lineOfficial.jpg" height="240px">
+                            </a>
+                        </Column>
+                        <Column sm={4} lg={8}>
+                            <h3 style="font-size: 1.5rem">LINEオープンチャット</h3>
+                            <p>参加者どうしの交流・リアルタイム情報発信にご協力ください。<br>参加コードは<strong>kanazawa</strong>です。</p>
+                            <a href="https://line.me/ti/g2/kgOzOMqAwlYQfWp5TZxnt5POrlm59hASZsAtfQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default
+" target="_blank">
+                                <img alt="LINEオープンチャット" src="lineOpenChat.jpg" height="240px">
+                            </a>
+                        </Column>
+                    </Row>
+                </Grid>
             </Column>
         </Row>
         <Row padding>
