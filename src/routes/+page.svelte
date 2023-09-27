@@ -29,14 +29,6 @@
             title="10/1当日のごあんない"
             caption="10/1開催期間中はLINEを活用します。公式LINEアカウントから情報発信を行うほか、LINEオープンチャットで参加者どうしの交流を行います。ぜひご登録を！"
     />
-    <ToastNotification
-            fullWidth
-            hideCloseButton
-            lowContrast
-            kind="info"
-            title="お通し情報追加のお知らせ"
-            caption="参加店舗ページに、各店舗で提供されるお通しの情報を追加しました。"
-    />
     <h1>日本酒ゴーアラウンド金沢2023 公式サイト</h1>
     <Grid noGutter>
         <Row>
@@ -81,8 +73,8 @@
                     <ListItem>10月1日はさかずきんバッジを胸元につけて日本酒の日をアピール。</ListItem>
                     <ListItem>参加店舗ではしご酒！各店舗でふるまい酒とお通しが提供されます。また、各店舗とタッグを組む蔵元さんが来店されます。</ListItem>
                     <ListItem>その後は追加の料理やお酒を楽しむもよし、蔵元さんとの語らいを楽しむのもよし、次の店へゴーアラウンドするもよし。</ListItem>
-                    <ListItem>日本酒ゴーアラウンド金沢では<strong>LINEイベント・LINEチャット</strong>でリアルタイムに情報配信予定。</ListItem>
-                    <ListItem>当日は<strong>和らぎ水の持ち込みを推奨。</strong>混雑時など、お店によってはご用意でない場合もあります。</ListItem>
+                    <ListItem>日本酒ゴーアラウンド金沢では<strong>LINEイベント・LINEチャット</strong>でリアルタイムに情報配信。ぜひご登録をお願いします。</ListItem>
+                    <ListItem>当日は<strong>和らぎ水の持ち込みを推奨。</strong>混雑時など、お店によってはご用意できない場合もあります。</ListItem>
                 </OrderedList>
             </Column>
         </Row>
