@@ -7,15 +7,28 @@ export interface RawStore {
     salesBreakStartTime: string | null;
     salesBreakEndTime: string | null;
     salesEndTime: string;
-    kuramoto: string;
-    kuramotoStartTime: string | null;
-    kuramotoEndTime: string | null;
     seat: string | null;
     appetizer: string | null;
     appetizerPrice: number | null;
     timeLimit: string | null;
     additionalNotes: string | null;
     mapUrl: string;
+    snsUrls: SnsUrls;
+    kuramoto: Kuramoto;
+}
+
+export interface SnsUrls {
+    twitterUrl: string | null;
+    facebookUrl: string | null;
+    instagramUrl: string | null;
+    websiteUrl: string | null;
+}
+
+export interface Kuramoto {
+    name: string;
+    startTime: string | null;
+    endTime: string | null;
+    snsUrls: SnsUrls;
 }
 
 export interface FormattedFields {

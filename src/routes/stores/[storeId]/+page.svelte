@@ -8,6 +8,7 @@
         Tile
     } from "carbon-components-svelte";
     import BusinessTimeCell from "../../../components/BusinessTimeCell.svelte";
+    import SnsUrls from "../../../components/SnsUrls.svelte";
 
     export let data: { store: Store }
 </script>
@@ -43,8 +44,20 @@
                     <StructuredListCell>{data.store.phoneNumber}</StructuredListCell>
                 </StructuredListRow>
                 <StructuredListRow>
+                    <StructuredListCell>店舗SNS</StructuredListCell>
+                    <StructuredListCell>
+                        <SnsUrls snsUrls={data.store.snsUrls} />
+                    </StructuredListCell>
+                </StructuredListRow>
+                <StructuredListRow>
                     <StructuredListCell>蔵元</StructuredListCell>
-                    <StructuredListCell>{data.store.kuramoto}</StructuredListCell>
+                    <StructuredListCell>{data.store.kuramoto.name}</StructuredListCell>
+                </StructuredListRow>
+                <StructuredListRow>
+                    <StructuredListCell>蔵元SNS</StructuredListCell>
+                    <StructuredListCell>
+                        <SnsUrls snsUrls={data.store.kuramoto.snsUrls} />
+                    </StructuredListCell>
                 </StructuredListRow>
                 <StructuredListRow>
                     <StructuredListCell>料金</StructuredListCell>

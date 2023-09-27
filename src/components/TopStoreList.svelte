@@ -8,8 +8,8 @@
         Tile
     } from 'carbon-components-svelte';
     import BusinessTimeCell from "./BusinessTimeCell.svelte";
+    import SnsUrls from "./SnsUrls.svelte";
     import type {Store} from "../types/stores";
-    import {goto} from '$app/navigation';
 
     export let stores: Store[];
 </script>
@@ -26,9 +26,15 @@
         </StructuredListHead>
         <StructuredListBody>
             {#each stores as store}
-                <StructuredListRow style="cursor: pointer;" on:click={() => goto('/stores/' + store.id)}>
-                    <StructuredListCell>{store.name}</StructuredListCell>
-                    <StructuredListCell>{store.kuramoto}</StructuredListCell>
+                <StructuredListRow>
+                    <StructuredListCell>
+                        <a href="{'/stores/' + store.id}">{store.name}</a><br>
+                        <SnsUrls snsUrls={store.snsUrls}/>
+                    </StructuredListCell>
+                    <StructuredListCell>
+                        {store.kuramoto.name}<br>
+                        <SnsUrls snsUrls={store.kuramoto.snsUrls}/>
+                    </StructuredListCell>
                     <BusinessTimeCell
                             salesStartTime={store.salesStartTime}
                             salesEndTime={store.salesEndTime}

@@ -32,7 +32,7 @@
         <StructuredListBody>
             <StructuredListRow>
                 <StructuredListCell>蔵元</StructuredListCell>
-                <StructuredListCell>{store.kuramoto}</StructuredListCell>
+                <StructuredListCell>{store.kuramoto.name}</StructuredListCell>
             </StructuredListRow>
             <StructuredListRow>
                 <StructuredListCell>料金</StructuredListCell>

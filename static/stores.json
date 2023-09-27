@@ -9,15 +9,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-01 21:00:00",
-      "kuramoto": "上川大雪（北海道）",
-      "kuramotoStartTime": "",
-      "kuramotoEndTime": "",
       "seat": "着席16席",
       "appetizer": "ぜいたく煮",
       "appetizerPrice": 500,
       "timeLimit": "60分",
       "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.356674308794!2d136.6554509!3d36.5696218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff833e328ccd37d%3A0xffb290c37d186fec!2z5pel5pys6YWS44OQ44OrIOmHkea-pOmFkui2ow!5e0!3m2!1sja!2sjp!4v1694151305110!5m2!1sja!2sjp"
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.356674308794!2d136.6554509!3d36.5696218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff833e328ccd37d%3A0xffb290c37d186fec!2z5pel5pys6YWS44OQ44OrIOmHkea-pOmFkui2ow!5e0!3m2!1sja!2sjp!4v1694151305110!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/kanazawa.sake/",
+        "instagramUrl": null,
+        "websiteUrl": null
+      },
+      "kuramoto": {
+        "name": "上川大雪（北海道）",
+        "startTime": "",
+        "endTime": "",
+        "snsUrls": {
+          "twitterUrl": "https://twitter.com/kamikawa_sake",
+          "facebookUrl": "https://www.facebook.com/ryokyuugura/",
+          "instagramUrl": "https://www.instagram.com/kamikawataisetsushuzo/",
+          "websiteUrl": "https://kamikawa-taisetsu.co.jp/"
+        }
+      }
     },
     {
       "id": 2,
@@ -28,15 +42,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-01 20:00:00",
-      "kuramoto": "白龍（福井）",
-      "kuramotoStartTime": "2023-10-01 12:00:00",
-      "kuramotoEndTime": "2023-10-01 20:00:00",
       "seat": "着席15席",
       "appetizer": "3点盛り 1.白龍の酒粕を使った自家製へしこ 2.自家製一夜干し 3.生麩田楽",
       "appetizerPrice": 700,
       "timeLimit": "混雑時案内あり",
       "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.3411201075455!2d136.66275!3d36.56999670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336bec0e5775%3A0x25762536b2a23b12!2z5pel44CF6a2a5pWw5a-EIOadseacqA!5e0!3m2!1sja!2sjp!4v1694151352185!5m2!1sja!2sjp"
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.3411201075455!2d136.66275!3d36.56999670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336bec0e5775%3A0x25762536b2a23b12!2z5pel44CF6a2a5pWw5a-EIOadseacqA!5e0!3m2!1sja!2sjp!4v1694151352185!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/hibisakanazukitouboku/",
+        "instagramUrl": "https://www.instagram.com/hibisakanazuki_tohboku/",
+        "websiteUrl": "https://hibisakanazuki.gorp.jp/"
+      },
+      "kuramoto": {
+        "name": "白龍（福井）",
+        "startTime": "2023-10-01 12:00:00",
+        "endTime": "2023-10-01 20:00:00",
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": null,
+          "instagramUrl": null,
+          "websiteUrl": "https://hakuryu-sake.com/"
+        }
+      }
     },
     {
       "id": 3,
@@ -47,15 +75,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-01 21:00:00",
-      "kuramoto": "御所泉（石川）",
-      "kuramotoStartTime": "",
-      "kuramotoEndTime": "",
       "seat": "着席10席",
       "appetizer": "おまかせ4種盛り",
       "appetizerPrice": 700,
       "timeLimit": "60分",
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.3411201075455!2d136.66275!3d36.56999670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff835f514cb9517%3A0xccba91f0b0ec6498!2z54eX5Lmd6YOOIOWwj-aWmeeQhuOBqOOBiuOBp-OCkw!5e0!3m2!1sja!2sjp!4v1694151479380!5m2!1sja!2sjp"
+      "additionalNotes": null,
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.3411201075455!2d136.66275!3d36.56999670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff835f514cb9517%3A0xccba91f0b0ec6498!2z54eX5Lmd6YOOIOWwj-aWmeeQhuOBqOOBiuOBp-OCkw!5e0!3m2!1sja!2sjp!4v1694151479380!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/kankurooden/",
+        "instagramUrl": "https://www.instagram.com/kankurooden/",
+        "websiteUrl": null
+      },
+      "kuramoto": {
+        "name": "御所泉（石川）",
+        "startTime": null,
+        "endTime": null,
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": null,
+          "instagramUrl": null,
+          "websiteUrl": null
+        }
+      }
     },
     {
       "id": 4,
@@ -66,15 +108,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-01 20:00:00",
-      "kuramoto": "谷泉（石川）",
-      "kuramotoStartTime": "2023-10-01 12:00:00",
-      "kuramotoEndTime": "2023-10-01 20:00:00",
       "seat": "着席21席・立席2席",
-      "appetizer": "",
+      "appetizer": null,
       "appetizerPrice": 500,
       "timeLimit": "混雑時90分",
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.1785873016693!2d136.64900660000004!3d36.573913999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336f4cd32dbf%3A0xd5e084d009dffcf3!2z5ZKM44GV44Gz56We6a6u!5e0!3m2!1sja!2sjp!4v1694151506588!5m2!1sja!2sjp"
+      "additionalNotes": null,
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.1785873016693!2d136.64900660000004!3d36.573913999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336f4cd32dbf%3A0xd5e084d009dffcf3!2z5ZKM44GV44Gz56We6a6u!5e0!3m2!1sja!2sjp!4v1694151506588!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/wasabi.2013/",
+        "instagramUrl": "https://www.instagram.com/shinsenwasabi/",
+        "websiteUrl": "https://www.shinsen-wasabi.jp/"
+      },
+      "kuramoto": {
+        "name": "谷泉（石川）",
+        "startTime": "2023-10-01 12:00:00",
+        "endTime": "2023-10-01 20:00:00",
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": "https://ja-jp.facebook.com/taniizumi.jp/",
+          "instagramUrl": "https://www.instagram.com/tsuruno_sake_brewery/",
+          "websiteUrl": "https://www.taniizumi.com/"
+        }
+      }
     },
     {
       "id": 5,
@@ -85,15 +141,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-01 20:00:00",
-      "kuramoto": "W（岐阜）",
-      "kuramotoStartTime": "2023-10-01 13:00:00",
-      "kuramotoEndTime": "2023-10-01 20:00:00",
       "seat": "着席20席・立席6席",
       "appetizer": "奈良漬クリームチーズ",
       "appetizerPrice": 600,
       "timeLimit": "60分",
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.07604281793!2d136.65408589999998!3d36.57638530000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336bf4ec2009%3A0xa74e9dc206530cae!2z6YaN6YaQ6YeR5rKi5bqX!5e0!3m2!1sja!2sjp!4v1694151543810!5m2!1sja!2sjp"
+      "additionalNotes": null,
+      "mapUrl": "https://www.google.com/maps/embed?pb=...",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/daigo_kanazawa/",
+        "websiteUrl": "https://syusuidaigo.com/kanazawa.html"
+      },
+      "kuramoto": {
+        "name": "W（岐阜）",
+        "startTime": "2023-10-01 13:00:00",
+        "endTime": "2023-10-01 20:00:00",
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": null,
+          "instagramUrl": null,
+          "websiteUrl": "https://www.watanabeshuzouten.com/"
+        }
+      }
     },
     {
       "id": 6,
@@ -104,15 +174,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-01 20:00:00",
-      "kuramoto": "三笑楽（富山）",
-      "kuramotoStartTime": "",
-      "kuramotoEndTime": "",
       "seat": "着席15席",
-      "appetizer": "",
+      "appetizer": null,
       "appetizerPrice": 700,
       "timeLimit": null,
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12816.30417127172!2d136.65408589999998!3d36.57638530000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337363067a09%3A0xa3e236c5ef3d75fb!2z5pel5pys6YWS55yf55C0!5e0!3m2!1sja!2sjp!4v1694151563315!5m2!1sja!2sjp"
+      "additionalNotes": null,
+      "mapUrl": "https://www.google.com/maps/embed?pb=...",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/nihonsyu.makoto/",
+        "instagramUrl": "https://www.instagram.com/sake_makoto_kanazawa/",
+        "websiteUrl": null
+      },
+      "kuramoto": {
+        "name": "三笑楽（富山）",
+        "startTime": null,
+        "endTime": null,
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": "https://www.facebook.com/sansyouraku/",
+          "instagramUrl": "https://www.instagram.com/sansyouraku_sake/",
+          "websiteUrl": "https://www.sansyouraku.jp/index.html"
+        }
+      }
     },
     {
       "id": 7,
@@ -123,15 +207,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-01 19:00:00",
-      "kuramoto": "遊穂（石川）",
-      "kuramotoStartTime": "",
-      "kuramotoEndTime": "",
       "seat": "着席10席,・立席11席",
       "appetizer": "豚だんご入りおでん盛り合わせ",
       "appetizerPrice": 500,
       "timeLimit": "つき出しのみの場合20分",
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.56376984157!2d136.6530764!3d36.56462990000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337efd0e6a5b%3A0x91aaa5ec619b84d8!2z44KI44GX5Z2K!5e0!3m2!1sja!2sjp!4v1694151635983!5m2!1sja!2sjp"
+      "additionalNotes": null,
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.56376984157!2d136.6530764!3d36.56462990000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337efd0e6a5b%3A0x91aaa5ec619b84d8!2z44KI44GX5Z2K!5e0!3m2!1sja!2sjp!4v1694151635983!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/odenyosibou/",
+        "instagramUrl": "https://www.instagram.com/oden_yoshibou/",
+        "websiteUrl": null
+      },
+      "kuramoto": {
+        "name": "遊穂（石川）",
+        "startTime": null,
+        "endTime": null,
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": "https://www.facebook.com/mioyasake/",
+          "instagramUrl": null,
+          "websiteUrl": "http://mioya-sake.com/"
+        }
+      }
     },
     {
       "id": 8,
@@ -142,15 +240,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-02 21:00:00",
-      "kuramoto": "早瀬浦（福井）",
-      "kuramotoStartTime": "",
-      "kuramotoEndTime": "",
       "seat": "着席14席",
       "appetizer": "なすとジビエのオランダ煮",
       "appetizerPrice": 500,
       "timeLimit": "混雑時1時間",
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.7616888189013!2d136.64891111058927!3d36.56308986752821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337feac29027%3A0x49a78a7988ac2b8d!2sRamen%26Bar%20ABRI!5e0!3m2!1sja!2sjp!4v1694150716643!5m2!1sja!2sjp"
+      "additionalNotes": null,
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.7616888189013!2d136.64891111058927!3d36.56308986752821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337feac29027%3A0x49a78a7988ac2b8d!2sRamen%26Bar%20ABRI!5e0!3m2!1sja!2sjp!4v1694150716643!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": "https://twitter.com/abri_kanazawa/",
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/abri.kanazawa/",
+        "websiteUrl": null
+      },
+      "kuramoto": {
+        "name": "早瀬浦（福井）",
+        "startTime": null,
+        "endTime": null,
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": null,
+          "instagramUrl": null,
+          "websiteUrl": null
+        }
+      }
     },
     {
       "id": 9,
@@ -161,15 +273,29 @@
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
       "salesEndTime": "2023-10-02 20:00:00",
-      "kuramoto": "超久（和歌山）",
-      "kuramotoStartTime": "",
-      "kuramotoEndTime": "",
       "seat": "着席10席",
       "appetizer": "桜海老と冬瓜煮",
       "appetizerPrice": 500,
       "timeLimit": "混雑時1時間",
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.7485708307695!2d136.65292030000003!3d36.5601749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8347fa678b1d5%3A0xe8335c79452988c6!2zSmFwYW5lc2UgU2FrZSBCYXIg57KL6YWU!5e0!3m2!1sja!2sjp!4v1694151670771!5m2!1sja!2sjp"
+      "additionalNotes": null,
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.7485708307695!2d136.65292030000003!3d36.5601749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8347fa678b1d5%3A0xe8335c79452988c6!2zSmFwYW5lc2UgU2FrZSBCYXIg57KL6YWU!5e0!3m2!1sja!2sjp!4v1694151670771!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/p/Japanese-Sake-Bar-%E7%B2%8B%E9%85%94-Kanazawa-katamachi-100063542409888/",
+        "instagramUrl": "https://www.instagram.com/japanese.sake.bar.ikiyoi/",
+        "websiteUrl": null
+      },
+      "kuramoto": {
+        "name": "超久（和歌山）",
+        "startTime": null,
+        "endTime": null,
+        "snsUrls": {
+          "twitterUrl": "https://twitter.com/nakanoBC",
+          "facebookUrl": null,
+          "instagramUrl": "https://www.instagram.com/nakanobc/",
+          "websiteUrl": "https://www.nakano-group.co.jp/"
+        }
+      }
     }
   ]
 }
