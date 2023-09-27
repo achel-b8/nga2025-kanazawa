@@ -96,7 +96,7 @@
                             <!--TODO スタイル設定めんどいので改行で雑実装した-->
                             <p>各店舗からのリアルタイムでの情報発信を行います。<br><br></p>
                             <a href="https://lin.ee/PXeHmfx" target="_blank">
-                                <img alt="公式LINEアカウント" src="lineOfficial.jpg" height="240px">
+                                <img alt="公式LINEアカウント" src="qr/lineOfficial.webp" height="240px">
                             </a>
                         </Column>
                         <Column sm={4} lg={8}>
@@ -104,11 +104,20 @@
                             <p>参加者どうしの交流・リアルタイム情報発信にご協力ください。<br>参加コードは<strong>kanazawa</strong>です。</p>
                             <a href="https://line.me/ti/g2/kgOzOMqAwlYQfWp5TZxnt5POrlm59hASZsAtfQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default
 " target="_blank">
-                                <img alt="LINEオープンチャット" src="lineOpenChat.jpg" height="240px">
+                                <img alt="LINEオープンチャット" src="qr/lineOpenChat.webp" height="240px">
                             </a>
                         </Column>
                     </Row>
                 </Grid>
+            </Column>
+        </Row>
+        <Row>
+            <Column>
+                <h2>Instagramアカウント</h2>
+                <p>公式Instagramアカウントでも当日の情報発信を行います。</p>
+                <a href="https://www.instagram.com/nga_kanazawa/" target="_blank">
+                    <img alt="公式Instagramアカウント" src="qr/instagram.webp" height="240px">
+                </a>
             </Column>
         </Row>
         <Row padding>
