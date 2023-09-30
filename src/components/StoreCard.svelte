@@ -16,6 +16,7 @@
 </script>
 
 <Tile style="margin-left: 16px; margin-right: 16px; cursor: pointer;" on:click={() => goto('/stores/' + store.id)}>
+    <h3 style="font-size: 1.5rem">{store.name}</h3>
     <ImageLoader
             alt="{store.name}"
             style="width:100%; height:auto; object-fit:cover; max-width: 1080px"
