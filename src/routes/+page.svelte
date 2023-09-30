@@ -29,6 +29,15 @@
             title="10/1当日のごあんない"
             caption="10/1開催期間中はLINEを活用します。公式LINEアカウントから情報発信を行うほか、LINEオープンチャットで参加者どうしの交流を行います。ぜひご登録を！"
     />
+
+    <ToastNotification
+            fullWidth
+            hideCloseButton
+            lowContrast
+            kind="warning"
+            title="缶バッジ販売情報"
+            caption="9/30時点で右記の店舗についてはバッジがほぼ完売しております：粋酔,燗九郎  当日の缶バッジ在庫状況は公式LINE情報やLINEオープンチャットでご確認ください。"
+    />
     <h1>日本酒ゴーアラウンド金沢2023 公式サイト</h1>
     <Grid noGutter>
         <Row>
