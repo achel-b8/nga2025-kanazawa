@@ -1,6 +1,7 @@
 <script lang="ts">
     import type {Store} from "../../../types/stores";
     import {
+        ImageLoader,
         StructuredList,
         StructuredListBody,
         StructuredListCell,
@@ -20,18 +21,13 @@
 
 <main>
     <h1>{data.store.name}</h1>
-    <iframe src={data.store.mapUrl}
-            class="gmap"
-            width="100%"
-            height="600"
-            allowfullscreen
-            style="margin-top: 16px"
-            title="Google Map"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-    >
-
-    </iframe>
+    <ImageLoader
+            alt="{data.store.name}"
+            style="width:100%; height:auto; object-fit:cover; max-width: 1080px"
+            src="/stores/{data.store.id}.webp"
+            height="1080px"
+            width="1080px"
+     />
     <Tile style="margin-top: 16px">
         <StructuredList flush style="margin-bottom: 0px">
             <StructuredListBody>
