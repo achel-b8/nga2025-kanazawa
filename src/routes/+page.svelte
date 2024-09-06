@@ -16,8 +16,8 @@
 </script>
 
 <svelte:head>
-    <meta property="og:title" content="日本酒ゴーアラウンド金沢2023 公式サイト">
-    <title>日本酒ゴーアラウンド金沢2023 公式サイト</title>
+    <meta property="og:title" content="日本酒ゴーアラウンド金沢2024 公式サイト">
+    <title>日本酒ゴーアラウンド金沢2024 公式サイト</title>
 </svelte:head>
 
 <main>
@@ -26,19 +26,10 @@
             hideCloseButton
             lowContrast
             kind="info"
-            title="10/1当日のごあんない"
-            caption="10/1開催期間中はLINEを活用します。公式LINEアカウントから情報発信を行うほか、LINEオープンチャットで参加者どうしの交流を行います。ぜひご登録を！"
+            title="2024年開催について"
+            caption="2024年も金沢ゴーアラウンド開催します！ 適宜情報更新を行いますので今しばらくお待ち下さい。最新情報はinstagramもご覧ください。"
     />
-
-    <ToastNotification
-            fullWidth
-            hideCloseButton
-            lowContrast
-            kind="warning"
-            title="缶バッジ販売情報"
-            caption="9/30時点で右記の店舗についてはバッジがほぼ完売しております:粋酔,燗九郎  当日の缶バッジ在庫状況は公式LINE情報やLINEオープンチャットでご確認ください。"
-    />
-    <h1>日本酒ゴーアラウンド金沢2023 公式サイト</h1>
+    <h1>日本酒ゴーアラウンド金沢2024 公式サイト</h1>
     <Grid noGutter>
         <Row>
             <Column padding>
@@ -47,8 +38,9 @@
                     <ImageLoader
                             alt="メインビジュアル"
                             style="width:100%; height:auto; object-fit:cover; max-width: 600px"
-                            src="mainVisual.webp"
-                            height="850px"
+                            src="mainVisual2024.jpg
+"
+                            height="848px"
                             width="600px"
                     >
                         <svelte:fragment slot="loading">
@@ -63,7 +55,7 @@
     <Grid>
         <Row padding>
             <Column>
-                <h2>日本酒ゴーアラウンド金沢、開催決定！</h2>
+                <h2>※以下は2023年開催時の情報です、更新をお待ちください</h2>
                 <p>
                     毎年10月1日は<strong>日本酒の日</strong>。<br>
                     この日を祝うべく全国各地で開催されるはしご酒イベント <strong><a href="https://nga-osaka.com/"

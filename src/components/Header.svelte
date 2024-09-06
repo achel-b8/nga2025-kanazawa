@@ -20,7 +20,7 @@
         bind:isSideNavOpen
         class="custom-header"
         href="./"
-        platformName="日本酒ゴーアラウンド金沢2023"
+        platformName="日本酒ゴーアラウンド金沢2024"
 >
     <svelte:fragment slot="skip-to-content">
         <SkipToContent/>

@@ -11,8 +11,8 @@
 </script>
 
 <svelte:head>
-    <meta property="og:title" content="日本酒ゴーアラウンド金沢2023 公式サイト｜参加店舗一覧">
-    <title>日本酒ゴーアラウンド金沢2023 公式サイト｜参加店舗一覧</title>
+    <meta property="og:title" content="日本酒ゴーアラウンド金沢2024 公式サイト｜参加店舗一覧">
+    <title>日本酒ゴーアラウンド金沢2024 公式サイト｜参加店舗一覧</title>
 </svelte:head>
 
 <main>

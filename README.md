@@ -1,6 +1,6 @@
 # nga2023-kanazawa
 https://nga-kanazawa.com/
-日本酒ゴーアラウンド金沢2023公式Webサイト。
+日本酒ゴーアラウンド金沢2024公式Webサイト。
 
 ## 利用技術
 - Vercel
