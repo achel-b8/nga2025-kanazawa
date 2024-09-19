@@ -70,7 +70,7 @@
             <Column sm={12} md={12} lg={12}>
                 <h2>日本酒ゴーアラウンド金沢で能登を応援！</h2>
                 <p>
-                    今年はタッグ蔵元さんに能登の酒蔵さんが3店舗参戦のほか、 下記の能登応援企画を行います。
+                    今年はタッグ蔵元さんに能登の酒蔵さんが3店舗参戦（谷泉、奥能登の白菊、大江山）のほか、 下記の能登応援企画を行います。
                 </p>
             </Column>
             <Column sm={12} md={12} lg={12}>
@@ -158,7 +158,7 @@
                 </p>
                 <a href="./map1920.png">
                     <ImageLoader
-                            alt="メインビジュアル"
+                            alt="地図"
                             style="width:100%; height:auto; object-fit:cover; max-width: 640px"
                             src="map640.png"
                             height="452px"
