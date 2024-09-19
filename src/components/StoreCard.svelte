@@ -20,7 +20,7 @@
     <ImageLoader
             alt="{store.name}"
             style="width:100%; height:auto; object-fit:cover; max-width: 1080px"
-            src="/stores/{store.id}.webp"
+            src="./stores/{store.id}.webp"
             height="1080px"
             width="1080px"
     >

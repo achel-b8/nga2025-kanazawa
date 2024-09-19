@@ -24,7 +24,7 @@
     <ImageLoader
             alt="{data.store.name}"
             style="width:100%; height:auto; object-fit:cover; max-width: 1080px"
-            src="/stores/{data.store.id}.webp"
+            src="/2023/stores/{data.store.id}.webp"
             height="1080px"
             width="1080px"
      />

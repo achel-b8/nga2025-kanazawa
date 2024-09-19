@@ -8,7 +8,7 @@ export const load: PageLoad = (async ({fetch, params}): Promise<{ store: Store }
         throw error(404, 'Not found');
     }
 
-    const response = await fetch('/stores.json');
+    const response = await fetch('/2023/stores.json');
     const json: RawStores = await response.json();
 
     const store = json.stores.filter((store) => store.id === Number(params.storeId));
