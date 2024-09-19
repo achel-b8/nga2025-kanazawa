@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type {Store} from "../../../types/stores";
+    import type {Store} from "../../../../types/stores";
     import {
         ImageLoader,
         StructuredList,
@@ -8,15 +8,15 @@
         StructuredListRow,
         Tile
     } from "carbon-components-svelte";
-    import BusinessTimeCell from "../../../components/BusinessTimeCell.svelte";
-    import SnsUrls from "../../../components/SnsUrls.svelte";
+    import BusinessTimeCell from "../../../../components/BusinessTimeCell.svelte";
+    import SnsUrls from "../../../../components/SnsUrls.svelte";
 
     export let data: { store: Store }
 </script>
 
 <svelte:head>
-    <meta property="og:title" content="日本酒ゴーアラウンド金沢2024 公式サイト｜{data.store.name}">
-    <title>日本酒ゴーアラウンド金沢2024 公式サイト｜{data.store.name}</title>
+    <meta property="og:title" content="日本酒ゴーアラウンド金沢2024 公式サイト｜2023年参加店舗：{data.store.name}">
+    <title>日本酒ゴーアラウンド金沢2024 公式サイト｜2023年参加店舗：{data.store.name}</title>
 </svelte:head>
 
 <main>
@@ -71,6 +71,14 @@
                             salesBreakStartTime={data.store.salesBreakStartTime}
                             salesBreakEndTime={data.store.salesBreakEndTime}
                     />
+                </StructuredListRow>
+                <StructuredListRow>
+                    <StructuredListCell>席数</StructuredListCell>
+                    <StructuredListCell>{data.store.seat}</StructuredListCell>
+                </StructuredListRow>
+                <StructuredListRow>
+                    <StructuredListCell>利用時間</StructuredListCell>
+                    <StructuredListCell>{data.store.timeLimit}</StructuredListCell>
                 </StructuredListRow>
             </StructuredListBody>
         </StructuredList>

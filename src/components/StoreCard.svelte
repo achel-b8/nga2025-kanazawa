@@ -15,7 +15,7 @@
     export let store: Store
 </script>
 
-<Tile style="margin-left: 16px; margin-right: 16px; cursor: pointer;" on:click={() => goto('/stores/' + store.id)}>
+<Tile style="margin-left: 16px; margin-right: 16px; cursor: pointer;" on:click={() => goto('./stores/' + store.id)}>
     <h3 style="font-size: 1.5rem">{store.name}</h3>
     <ImageLoader
             alt="{store.name}"

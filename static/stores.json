@@ -2,116 +2,17 @@
   "stores": [
     {
       "id": 1,
-      "name": "日本酒バル 金澤酒趣",
-      "address": "石川県金沢市尾山町5-10.",
-      "phoneNumber": "0762257339",
-      "salesStartTime": "2023-10-01 16:00:00",
-      "salesBreakStartTime": null,
-      "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-01 21:00:00",
-      "seat": "着席16席",
-      "appetizer": "ぜいたく煮",
-      "appetizerPrice": 500,
-      "timeLimit": "60分",
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.356674308794!2d136.6554509!3d36.5696218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff833e328ccd37d%3A0xffb290c37d186fec!2z5pel5pys6YWS44OQ44OrIOmHkea-pOmFkui2ow!5e0!3m2!1sja!2sjp!4v1694151305110!5m2!1sja!2sjp",
-      "snsUrls": {
-        "twitterUrl": null,
-        "facebookUrl": "https://www.facebook.com/kanazawa.sake/",
-        "instagramUrl": null,
-        "websiteUrl": null
-      },
-      "kuramoto": {
-        "name": "上川大雪（北海道）",
-        "startTime": "",
-        "endTime": "",
-        "snsUrls": {
-          "twitterUrl": "https://twitter.com/kamikawa_sake",
-          "facebookUrl": "https://www.facebook.com/ryokyuugura/",
-          "instagramUrl": "https://www.instagram.com/kamikawataisetsushuzo/",
-          "websiteUrl": "https://kamikawa-taisetsu.co.jp/"
-        }
-      }
-    },
-    {
-      "id": 2,
-      "name": "日々魚数寄 東木",
-      "address": "石川県金沢市尾張町1-5-3",
-      "phoneNumber": "0762244266",
-      "salesStartTime": "2023-10-01 12:00:00",
-      "salesBreakStartTime": null,
-      "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-01 20:00:00",
-      "seat": "着席15席",
-      "appetizer": "自家製酒の肴3点盛",
-      "appetizerPrice": 700,
-      "timeLimit": "混雑時案内あり",
-      "additionalNotes": "",
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.3411201075455!2d136.66275!3d36.56999670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336bec0e5775%3A0x25762536b2a23b12!2z5pel44CF6a2a5pWw5a-EIOadseacqA!5e0!3m2!1sja!2sjp!4v1694151352185!5m2!1sja!2sjp",
-      "snsUrls": {
-        "twitterUrl": null,
-        "facebookUrl": "https://www.facebook.com/hibisakanazukitouboku/",
-        "instagramUrl": "https://www.instagram.com/hibisakanazuki_tohboku/",
-        "websiteUrl": "https://hibisakanazuki.gorp.jp/"
-      },
-      "kuramoto": {
-        "name": "白龍（福井）",
-        "startTime": "2023-10-01 12:00:00",
-        "endTime": "2023-10-01 20:00:00",
-        "snsUrls": {
-          "twitterUrl": null,
-          "facebookUrl": null,
-          "instagramUrl": null,
-          "websiteUrl": "https://hakuryu-sake.com/"
-        }
-      }
-    },
-    {
-      "id": 3,
-      "name": "燗九郎 小料理とおでん",
-      "address": "石川県金沢市片町2-5-8",
-      "phoneNumber": "0762220096",
-      "salesStartTime": "2023-10-01 13:00:00",
-      "salesBreakStartTime": null,
-      "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-01 21:00:00",
-      "seat": "着席10席",
-      "appetizer": "付き出し4種盛り",
-      "appetizerPrice": 700,
-      "timeLimit": "60分",
-      "additionalNotes": null,
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.3411201075455!2d136.66275!3d36.56999670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff835f514cb9517%3A0xccba91f0b0ec6498!2z54eX5Lmd6YOOIOWwj-aWmeeQhuOBqOOBiuOBp-OCkw!5e0!3m2!1sja!2sjp!4v1694151479380!5m2!1sja!2sjp",
-      "snsUrls": {
-        "twitterUrl": null,
-        "facebookUrl": "https://www.facebook.com/kankurooden/",
-        "instagramUrl": "https://www.instagram.com/kankurooden/",
-        "websiteUrl": null
-      },
-      "kuramoto": {
-        "name": "御所泉（石川）",
-        "startTime": null,
-        "endTime": null,
-        "snsUrls": {
-          "twitterUrl": null,
-          "facebookUrl": null,
-          "instagramUrl": null,
-          "websiteUrl": null
-        }
-      }
-    },
-    {
-      "id": 4,
       "name": "神鮮 和さび",
       "address": "石川県金沢市本町2-5-9",
       "phoneNumber": "0762601181",
-      "salesStartTime": "2023-10-01 12:00:00",
+      "salesStartTime": "2024-10-01 16:00:00",
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-01 20:00:00",
-      "seat": "着席21席・立席2席",
-      "appetizer": "大梅貝旨煮と豆腐の味噌漬け",
-      "appetizerPrice": 500,
-      "timeLimit": "混雑時90分",
+      "salesEndTime": "2024-10-01 22:00:00",
+      "seat": null,
+      "appetizer": "梅煮物、めぎすのつみれ、味噌豆腐",
+      "appetizerPrice": 1000,
+      "timeLimit": null,
       "additionalNotes": null,
       "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.1785873016693!2d136.64900660000004!3d36.573913999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336f4cd32dbf%3A0xd5e084d009dffcf3!2z5ZKM44GV44Gz56We6a6u!5e0!3m2!1sja!2sjp!4v1694151506588!5m2!1sja!2sjp",
       "snsUrls": {
@@ -121,30 +22,30 @@
         "websiteUrl": "https://www.shinsen-wasabi.jp/"
       },
       "kuramoto": {
-        "name": "谷泉（石川）",
-        "startTime": "2023-10-01 12:00:00",
-        "endTime": "2023-10-01 20:00:00",
+        "name": "帆波（富山）",
+        "startTime": null,
+        "endTime": null,
         "snsUrls": {
           "twitterUrl": null,
-          "facebookUrl": "https://ja-jp.facebook.com/taniizumi.jp/",
-          "instagramUrl": "https://www.instagram.com/tsuruno_sake_brewery/",
-          "websiteUrl": "https://www.taniizumi.com/"
+          "facebookUrl": "https://www.facebook.com/hongoushuzou/",
+          "instagramUrl": null,
+          "websiteUrl": "https://uozushuzo.co.jp/"
         }
       }
     },
     {
-      "id": 5,
+      "id": 2,
       "name": "酒粋醍醐 金沢店",
       "address": "石川県金沢市安江町19-4",
       "phoneNumber": "0762560028",
-      "salesStartTime": "2023-10-01 13:00:00",
+      "salesStartTime": "2024-10-01 15:00:00",
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-01 20:00:00",
-      "seat": "着席20席・立席6席",
-      "appetizer": "奈良漬クリームチーズ",
-      "appetizerPrice": 600,
-      "timeLimit": "60分",
+      "salesEndTime": "2024-10-01 22:00:00",
+      "seat": null,
+      "appetizer": "クリームチーズのドライフルーツ和え、小バイ煮付け",
+      "appetizerPrice": 900,
+      "timeLimit": null,
       "additionalNotes": null,
       "mapUrl": "https://www.google.com/maps/embed?pb=...",
       "snsUrls": {
@@ -155,8 +56,8 @@
       },
       "kuramoto": {
         "name": "W（岐阜）",
-        "startTime": "2023-10-01 13:00:00",
-        "endTime": "2023-10-01 20:00:00",
+        "startTime": null,
+        "endTime": null,
         "snsUrls": {
           "twitterUrl": null,
           "facebookUrl": null,
@@ -166,17 +67,83 @@
       }
     },
     {
-      "id": 6,
+      "id": 3,
+      "name": "日本酒バル 金澤酒趣",
+      "address": "石川県金沢市尾山町5-10.",
+      "phoneNumber": "0762257339",
+      "salesStartTime": "2024-10-01 17:00:00",
+      "salesBreakStartTime": null,
+      "salesBreakEndTime": null,
+      "salesEndTime": "2024-10-01 22:00:00",
+      "seat": null,
+      "appetizer": "おつまみ3種盛り",
+      "appetizerPrice": 1000,
+      "timeLimit": null,
+      "additionalNotes": "",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.356674308794!2d136.6554509!3d36.5696218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff833e328ccd37d%3A0xffb290c37d186fec!2z5pel5pys6YWS44OQ44OrIOmHkea-pOmFkui2ow!5e0!3m2!1sja!2sjp!4v1694151305110!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/kanazawa.sake/",
+        "instagramUrl": null,
+        "websiteUrl": null
+      },
+      "kuramoto": {
+        "name": "谷泉（石川）",
+        "startTime": null,
+        "endTime": null,
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": "https://ja-jp.facebook.com/taniizumi.jp/",
+          "instagramUrl": "https://www.instagram.com/tsuruno_sake_brewery/",
+          "websiteUrl": "https://www.taniizumi.com/"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "日々魚数寄 東木",
+      "address": "石川県金沢市尾張町1-5-3",
+      "phoneNumber": "0762244266",
+      "salesStartTime": "2024-10-01 14:00:00",
+      "salesBreakStartTime": null,
+      "salesBreakEndTime": null,
+      "salesEndTime": "2024-10-01 22:00:00",
+      "seat": null,
+      "appetizer": "酒の肴5種盛り（能登柚餅子揚げ真薯など）",
+      "appetizerPrice": 1000,
+      "timeLimit": null,
+      "additionalNotes": null,
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.3411201075455!2d136.66275!3d36.56999670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336bec0e5775%3A0x25762536b2a23b12!2z5pel44CF6a2a5pWw5a-EIOadseacqA!5e0!3m2!1sja!2sjp!4v1694151352185!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/hibisakanazukitouboku/",
+        "instagramUrl": "https://www.instagram.com/hibisakanazuki_tohboku/",
+        "websiteUrl": "https://hibisakanazuki.gorp.jp/"
+      },
+      "kuramoto": {
+        "name": "永平寺白龍（福井）",
+        "startTime": null,
+        "endTime": null,
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": null,
+          "instagramUrl": "https://www.instagram.com/jizakegura.hakuryu/",
+          "websiteUrl": "https://yoshida-brewery.jp/"
+        }
+      }
+    },
+    {
+      "id": 5,
       "name": "日本酒真琴",
       "address": "石川県金沢市東山1丁目5-3",
       "phoneNumber": "0762053800",
-      "salesStartTime": "2023-10-01 11:30:00",
+      "salesStartTime": "2024-10-01 13:30:00",
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-01 20:00:00",
-      "seat": "着席15席",
+      "salesEndTime": "2024-10-01 19:30:00",
+      "seat": null,
       "appetizer": "日替わりおばんざい3品",
-      "appetizerPrice": 700,
+      "appetizerPrice": 900,
       "timeLimit": null,
       "additionalNotes": null,
       "mapUrl": "https://www.google.com/maps/embed?pb=...",
@@ -199,18 +166,18 @@
       }
     },
     {
-      "id": 7,
-      "name": "よし坊",
+      "id": 6,
+      "name": "おでん よし坊",
       "address": "石川県金沢市香林坊2-4-21",
       "phoneNumber": "0762218048",
-      "salesStartTime": "2023-10-01 11:30:00",
+      "salesStartTime": "2024-10-01 17:00:00",
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-01 19:00:00",
-      "seat": "着席10席,・立席11席",
-      "appetizer": "豚団子入りおでん盛り合わせ",
-      "appetizerPrice": 500,
-      "timeLimit": "つき出しのみの場合20分",
+      "salesEndTime": "2024-10-01 22:00:00",
+      "seat": null,
+      "appetizer": "おでん盛り合わせ",
+      "appetizerPrice": 800,
+      "timeLimit": null,
       "additionalNotes": null,
       "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.56376984157!2d136.6530764!3d36.56462990000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337efd0e6a5b%3A0x91aaa5ec619b84d8!2z44KI44GX5Z2K!5e0!3m2!1sja!2sjp!4v1694151635983!5m2!1sja!2sjp",
       "snsUrls": {
@@ -220,80 +187,113 @@
         "websiteUrl": null
       },
       "kuramoto": {
-        "name": "遊穂（石川）",
+        "name": "奥能登の白菊（石川）",
         "startTime": null,
         "endTime": null,
         "snsUrls": {
           "twitterUrl": null,
-          "facebookUrl": "https://www.facebook.com/mioyasake/",
-          "instagramUrl": null,
-          "websiteUrl": "http://mioya-sake.com/"
+          "facebookUrl": null,
+          "instagramUrl": "https://www.instagram.com/hakuto_shiragiku/",
+          "websiteUrl": "http://www.hakutousyuzou.jp/"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "炭焼き小料理 かなざわ吟",
+      "address": "石川県金沢市木倉町4−4",
+      "phoneNumber": "0762565571",
+      "salesStartTime": "2024-10-01 17:00:00",
+      "salesBreakStartTime": null,
+      "salesBreakEndTime": null,
+      "salesEndTime": "2024-10-01 22:00:00",
+      "seat": null,
+      "appetizer": "すっぽんの冷製茶碗蒸し",
+      "appetizerPrice": 900,
+      "timeLimit": null,
+      "additionalNotes": null,
+      "mapUrl": "",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/p/%E7%82%AD%E7%84%BC%E3%81%8D%E5%B0%8F%E6%96%99%E7%90%86-%E3%81%8B%E3%81%AA%E3%81%96%E3%82%8F-%E5%90%9F-100046244902044/?_rdr",
+        "instagramUrl": "https://www.instagram.com/kanazawa_gin_washoku/",
+        "websiteUrl": "https://r901900.gorp.jp/"
+      },
+      "kuramoto": {
+        "name": "京の春（京都）",
+        "startTime": null,
+        "endTime": null,
+        "snsUrls": {
+          "twitterUrl": null,
+          "facebookUrl": null,
+          "instagramUrl": "https://www.instagram.com/mukaisyuzou/",
+          "websiteUrl": "https://www.kuramoto-mukai.jp/"
         }
       }
     },
     {
       "id": 8,
-      "name": "Ramen&Bar ABRI",
-      "address": "石川県金沢市香林坊2-12-39",
-      "phoneNumber": "076-225-7672",
-      "salesStartTime": "2023-10-01 13:00:00",
+      "name": "bitte",
+      "address": "石川県金沢市木倉町2-10",
+      "phoneNumber": "0762226171",
+      "salesStartTime": "2024-10-01 14:00:00",
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-02 21:00:00",
-      "seat": "着席14席",
-      "appetizer": "なすとジビエのオランダ煮",
-      "appetizerPrice": 500,
-      "timeLimit": "混雑時1時間",
+      "salesEndTime": "2024-10-01 24:00:00",
+      "seat": null,
+      "appetizer": "蕎麦粉のタコス「猪肉」",
+      "appetizerPrice": 700,
+      "timeLimit": null,
       "additionalNotes": null,
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.7616888189013!2d136.64891111058927!3d36.56308986752821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337feac29027%3A0x49a78a7988ac2b8d!2sRamen%26Bar%20ABRI!5e0!3m2!1sja!2sjp!4v1694150716643!5m2!1sja!2sjp",
+      "mapUrl": "",
       "snsUrls": {
-        "twitterUrl": "https://twitter.com/abri_kanazawa/",
+        "twitterUrl": null,
         "facebookUrl": null,
-        "instagramUrl": "https://www.instagram.com/abri.kanazawa/",
-        "websiteUrl": null
+        "instagramUrl": "https://www.instagram.com/bitte_katamachi/?hl=ja",
+        "websiteUrl": "https://bittekatamachi.com/"
       },
       "kuramoto": {
-        "name": "早瀬浦（福井）",
+        "name": "大江山（石川）",
         "startTime": null,
         "endTime": null,
         "snsUrls": {
           "twitterUrl": null,
           "facebookUrl": null,
-          "instagramUrl": null,
-          "websiteUrl": null
+          "instagramUrl": "https://www.instagram.com/matsunami_sakebrewery/",
+          "websiteUrl": "https://www.o-eyama.com/"
         }
       }
     },
     {
       "id": 9,
-      "name": "Japanese Sake Bar 粋酔",
-      "address": "石川県金沢市片町1-5-26 アパ片町No1ビル2F",
-      "phoneNumber": "090-1317-1141",
-      "salesStartTime": "2023-10-01 13:00:00",
+      "name": "大衆ビストロNIL",
+      "address": "石川県金沢市片町1-12-17 アーバンビル 301",
+      "phoneNumber": "0762540432",
+      "salesStartTime": "2024-10-01 15:00:00",
       "salesBreakStartTime": null,
       "salesBreakEndTime": null,
-      "salesEndTime": "2023-10-02 20:00:00",
-      "seat": "着席10席",
-      "appetizer": "桜海老と冬瓜煮",
-      "appetizerPrice": 500,
-      "timeLimit": "混雑時1時間",
+      "salesEndTime": "2024-10-01 24:00:00",
+      "seat": null,
+      "appetizer": "沼パン（煮干しバターのバケット）",
+      "appetizerPrice": 1000,
+      "timeLimit": null,
       "additionalNotes": null,
-      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.7485708307695!2d136.65292030000003!3d36.5601749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8347fa678b1d5%3A0xe8335c79452988c6!2zSmFwYW5lc2UgU2FrZSBCYXIg57KL6YWU!5e0!3m2!1sja!2sjp!4v1694151670771!5m2!1sja!2sjp",
+      "mapUrl": "",
       "snsUrls": {
         "twitterUrl": null,
-        "facebookUrl": "https://www.facebook.com/p/Japanese-Sake-Bar-%E7%B2%8B%E9%85%94-Kanazawa-katamachi-100063542409888/",
-        "instagramUrl": "https://www.instagram.com/japanese.sake.bar.ikiyoi/",
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/taishubistronil/",
         "websiteUrl": null
       },
       "kuramoto": {
-        "name": "超久（和歌山）",
+        "name": "翔空（新潟）",
         "startTime": null,
         "endTime": null,
         "snsUrls": {
-          "twitterUrl": "https://twitter.com/nakanoBC",
-          "facebookUrl": null,
-          "instagramUrl": "https://www.instagram.com/nakanobc/",
-          "websiteUrl": "https://www.nakano-group.co.jp/"
+          "twitterUrl": "https://x.com/sho_ku_tanaka",
+          "facebookUrl": "https://www.facebook.com/LagoonBrewery",
+          "instagramUrl": "https://www.instagram.com/lagoon_brewery/",
+          "websiteUrl": "https://www.lagoon-brewery.com/"
         }
       }
     }
