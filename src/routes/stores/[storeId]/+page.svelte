@@ -72,6 +72,12 @@
                             salesBreakEndTime={data.store.salesBreakEndTime}
                     />
                 </StructuredListRow>
+                {#if data.store.additionalNotes}
+                    <StructuredListRow>
+                        <StructuredListCell>補足事項</StructuredListCell>
+                        <StructuredListCell>{data.store.additionalNotes}</StructuredListCell>
+                    </StructuredListRow>
+                {/if}
             </StructuredListBody>
         </StructuredList>
     </Tile>

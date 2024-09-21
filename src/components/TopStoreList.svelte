@@ -40,9 +40,11 @@
                             salesEndTime={store.salesEndTime}
                             salesBreakStartTime={store.salesBreakStartTime}
                             salesBreakEndTime={store.salesBreakEndTime}
+                            additionalNotes={store.additionalNotes}
                     />
                 </StructuredListRow>
             {/each}
         </StructuredListBody>
+
     </StructuredList>
 </Tile>
