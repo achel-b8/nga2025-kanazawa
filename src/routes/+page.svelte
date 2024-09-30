@@ -26,8 +26,8 @@
             hideCloseButton
             lowContrast
             kind="info"
-            title="2024年開催について"
-            caption="2024年も日本酒ゴーアラウンド金沢を開催します！ 最新情報はinstagramもご覧ください。"
+            title="2024年10月01日当日のごあんない"
+            caption="今年も10/1当日のリアルタイム情報発信をLINEオープンチャットで行います、ぜひご登録を！"
     />
     <h1>日本酒ゴーアラウンド金沢2024 公式サイト</h1>
     <Grid noGutter>
