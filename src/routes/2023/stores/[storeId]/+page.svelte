@@ -23,7 +23,7 @@
     <h1>{data.store.name}</h1>
     <ImageLoader
             alt="{data.store.name}"
-            style="width:100%; height:auto; object-fit:cover; max-width: 1080px"
+            style="width:100%; height:500px; object-fit:contain; max-width: 1080px; background-color: #e0e0e0;"
             src="/2023/stores/{data.store.id}.webp"
             height="1080px"
             width="1080px"
