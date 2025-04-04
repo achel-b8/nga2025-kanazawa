@@ -4,6 +4,14 @@ import { defineConfig } from 'vitest/config';
 export default defineConfig({
 	plugins: [sveltekit()],
 	test: {
-		include: ['src/**/*.{test,spec}.{js,ts}']
+		include: ['src/**/*.{test,spec}.{js,ts}'],
+		environment: 'jsdom',
+		globals: true,
+		setupFiles: ['./src/setupTests.ts']
+	},
+	build: {
+		rollupOptions: {
+			external: ['**/*.test.ts', '**/*.spec.ts']
+		}
 	}
 });
