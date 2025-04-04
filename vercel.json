@@ -1,6 +1,7 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "installCommand": "npm install --production",
-  "framework": "sveltekit"
+  "installCommand": "npm install --include=dev",
+  "framework": "sveltekit",
+  "ignoreCommand": "! find . -name '*.test.ts' -o -name '*.spec.ts'"
 }
