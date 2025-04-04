@@ -1,7 +1,7 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "installCommand": "npm install",
+  "installCommand": "npm install --production && npm install vite @sveltejs/kit @sveltejs/vite-plugin-svelte",
   "framework": "sveltekit",
   "ignoreCommand": "! find . -name '*.test.ts' -o -name '*.spec.ts'"
 }
