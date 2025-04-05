@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/svelte';
 import BusinessTimeCell from './BusinessTimeCell.svelte';
-import { createMockStore, createMockStoreWithBreak } from '../mocks/storesMock';
+import { createMockStore, createMockStoreWithBreak } from '../../tests/mocks/storesMock';
 
 describe('BusinessTimeCell', () => {
   it('休憩時間なしで正しく表示される', () => {
