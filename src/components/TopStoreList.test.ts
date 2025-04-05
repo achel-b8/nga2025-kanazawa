@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/svelte';
 import TopStoreList from './TopStoreList.svelte';
-import { createMockStores } from '../mocks/storesMock';
+import { createMockStores } from '../../tests/mocks/storesMock';
 
 describe('TopStoreList', () => {
   it('複数の店舗が正しく表示される', () => {

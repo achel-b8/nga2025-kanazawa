@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen } from '@testing-library/svelte';
 import StoreDetailPage from './+page.svelte';
-import { createMockStore } from '../../../../src/mocks/storesMock';
+import { createMockStore } from '../../../../tests/mocks/storesMock';
 
 describe('店舗詳細ページ（2024年版）', () => {
   beforeEach(() => {
