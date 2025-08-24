@@ -59,7 +59,7 @@
   - フィルタ/ソートは当面無し（必要なら将来拡張）
   - 空状態（0 件）表示あり
 - Props（案）:
-  - `items: { store: Store; brewery?: Brewery; hours: Hours[]; isFirstTimer: boolean; participationCount: number }[]`
+  - `items: { store: Store; brewery?: Brewery; participation: Participation; isFirstTimer: boolean; participationCount: number }[]`
 
 ### StoreCard.svelte
 - 目的: 一覧の各店舗カード
@@ -69,10 +69,10 @@
   - `store: Store`
   - `isFirstTimer: boolean`
   - `participationCount: number`
-  - `hours: Hours[]`
+  - `participation: Participation`
   - `brewery?: Brewery`
 - ナビゲーション:
-  - カード全体タップで `/stores/[storeId]`
+  - カード全体タップで `/stores/[storeId]`（storeIdは数値）
 
 ### StoreDetail.svelte
 - 目的: 店舗詳細の表示
@@ -85,15 +85,18 @@
 - Props（案）:
   - `store: Store`
   - `brewery?: Brewery`
-  - `hours: Hours[]`
+  - `participation: Participation`
   - `isFirstTimer: boolean`
   - `participationCount: number`
 
 ### BusinessTimeCell.svelte（軽量方針）
-- 目的: 営業時間の整形表示（シンプルな区間配列）
-- 入力は `"HH:mm"` の文字列配列（跨ぎ等は将来検討）
+- 目的: 営業時間の整形表示
+- 入力は ISO8601 形式の時刻文字列
 - Props（案）:
-  - `hours?: { open: string; close: string }[]`
+  - `salesStartTime?: string`
+  - `salesEndTime?: string`
+  - `salesBreakStartTime?: string`
+  - `salesBreakEndTime?: string`
 
 ### SnsUrls.svelte（軽量方針）
 - 目的: SNS リンクの列挙（存在キーのみ）
@@ -139,7 +142,7 @@ export interface StoreCardProps {
   store: Store;
   isFirstTimer: boolean;
   participationCount: number;
-  hours: Hours[];
+  participation: Participation;
   brewery?: Brewery;
 }
 
@@ -147,7 +150,7 @@ export interface StoreCardProps {
 export interface StoreListItem {
   store: Store;
   brewery?: Brewery;
-  hours: Hours[];
+  participation: Participation;
   isFirstTimer: boolean;
   participationCount: number;
 }
@@ -159,7 +162,7 @@ export interface StoreListProps {
 export interface StoreDetailProps {
   store: Store;
   brewery?: Brewery;
-  hours: Hours[];
+  participation: Participation;
   isFirstTimer: boolean;
   participationCount: number;
 }

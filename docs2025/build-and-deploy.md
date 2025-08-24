@@ -20,13 +20,60 @@
   - Node 18 以上（20 推奨）
 - TypeScript
   - `strict` を基本とする
+- CSS フレームワーク
+  - Tailwind CSS v3（Carbon Components から移行）
+  - PostCSS で処理
 - レンダリング方針
   - 各公開ページはプリレンダー可能な設計（各ページで `export const prerender = true` を推奨）
 
 標準コマンド（例）:
-```
+```bash
+# 依存関係のインストール
 npm ci
+
+# Tailwind CSS の初期設定（初回のみ）
+npm install -D tailwindcss postcss autoprefixer @tailwindcss/typography
+npx tailwindcss init -p
+
+# ビルド
 npm run build
+```
+
+### Tailwind CSS 設定
+
+`tailwind.config.js`:
+```javascript
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./src/**/*.{html,js,svelte,ts}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: '#8F2E14',  // ベンガラ
+        accent: '#C9A063',   // 金
+        bg: '#FAFAF9',
+        text: '#0B0B0B'
+      }
+    }
+  },
+  plugins: [
+    require('@tailwindcss/typography')
+  ]
+}
+```
+
+`src/app.css`:
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #8F2E14;
+  --color-accent: #C9A063;
+  --color-bg: #FAFAF9;
+  --color-text: #0B0B0B;
+}
 ```
 
 ---
@@ -154,7 +201,25 @@ npm run build
   - モバイル LCP ≤ 2.5s（4G）を目安に確認
   - 初回 JS バンドルが目標値（80–120KB gzip）に収まっていること
 
-## 8. 関連リンク
+## 8. データ移行・画像資産の移行
+
+### 画像ファイルの移行戦略
+
+1. **既存画像の維持**
+   - 現在の形式: `/static/stores/1.webp` （数値ID）
+   - 移行後も同一形式を維持
+   - 既存システムとの互換性を優先
+
+2. **画像最適化**
+   - WebP 形式を維持
+   - 必要に応じて AVIF も追加検討
+   - サムネイル用の小サイズ版を生成（`{id}-thumb.webp`）
+
+3. **キャッシュ戦略**
+   - ファイル名変更による cache bust
+   - immutable キャッシュポリシーを適用
+
+## 9. 関連リンク
 
 - `docs2025/routing-and-pages.md`
 - `docs2025/data-model-and-flow.md`

@@ -15,7 +15,7 @@
 - 酒蔵マスター: `/static/breweries.json`
 - 参加情報（年度別）: `/static/{year}/participations.json`（例: `/static/2025/participations.json`）
 - 画像例
-  - 店舗: `/static/stores/izakaya-aaa.webp`
+  - 店舗: `/static/stores/1.webp`（数値ID.webp）
   - 酒蔵: `/static/breweries/brewery-zzz.webp`
 
 ## 2. 型定義（ベース）
@@ -33,13 +33,13 @@ export type Geo = { lat: number; lng: number };
 
 // 店舗マスター
 export type Store = {
-  id: string;            // kebab-case, 小文字英数字+ハイフン（店名非依存の安定ID）
+  id: number;            // 数値ID（既存システムとの互換性維持）
   name: string;
   area?: string;         // 任意
   address?: string;      // 任意（地図リンク用）
   geo?: Geo | null;      // 任意
   sns: Web;              // 全キーは string|null
-  image?: string;        // 例: "/stores/izakaya-aaa.webp"
+  image?: string;        // 例: "/stores/1.webp"（数値IDを使用）
 };
 
 // 酒蔵マスター
@@ -53,14 +53,17 @@ export type Brewery = {
 
 export type Prefecture = '北海道' | '青森' | '岩手' | '宮城' | '秋田' | '山形' | '福島' | '茨城' | '栃木' | '群馬' | '埼玉' | '千葉' | '東京' | '神奈川' | '新潟' | '富山' | '石川' | '福井' | '山梨' | '長野' | '岐阜' | '静岡' | '愛知' | '三重' | '滋賀' | '京都' | '大阪' | '兵庫' | '奈良' | '和歌山' | '鳥取' | '島根' | '岡山' | '広島' | '山口' | '徳島' | '香川' | '愛媛' | '高知' | '福岡' | '佐賀' | '長崎' | '熊本' | '大分' | '宮崎' | '鹿児島' | '沖縄';
 
-export type Hours = { open: string; close: string }; // "HH:mm"
-
 // 年度ごとの参加情報（1レコード=1店舗の参加。酒蔵は1件） 価格情報やつまみ情報などを追記予定
 export type Participation = {
-  year: [2025, 2024, 2023];
-  store_id: string;      // Store.id への参照
-  brewery_id: string;    // Brewery.id への参照（単一）
-  hours: Hours[];        // 当日の営業枠（跨ぎ等は別途要件化）
+  year: 2025 | 2024 | 2023;      // 参加年度（Union型）
+  store_id: number;               // Store.id への参照（数値）
+  brewery_id: string;             // Brewery.id への参照（単一）
+  salesStartTime: string;         // ISO8601形式 例: "2025-10-01T15:00:00"
+  salesEndTime: string;           // ISO8601形式 例: "2025-10-01T21:00:00"
+  salesBreakStartTime?: string;  // 中断開始時刻（任意）
+  salesBreakEndTime?: string;    // 中断終了時刻（任意）
+  appetizer?: string;             // お通し内容（任意）
+  appetizerPrice?: number;        // お通し価格（任意）
 };
 
 export type Stores = { stores: Store[] };
@@ -70,8 +73,10 @@ export type Participations = { year: number; participations: Participation[] };
 
 補足
 - 旧スキーマに存在した `tags` は廃止。
-- `hours` は「参加情報」にのみ存在（マスター側には置かない）。
+- 営業時間は ISO8601 形式で「参加情報」に含める（マスター側には置かない）。
 - `Web` は全キーを必須としつつ `string | null` を許容する（存在しない場合は `null` を入れる）。
+- Prefecture 型は実装時に `src/types/constants.ts` などに分離することを推奨。
+- 店舗IDは既存システムとの互換性のため数値型を維持。
 
 ## 3. JSON 例
 
@@ -80,16 +85,16 @@ export type Participations = { year: number; participations: Participation[] };
 {
   "stores": [
     {
-      "id": "izakaya-aaa",
+      "id": 1,
       "name": "居酒屋AAA",
       "area": "片町",
       "address": "金沢市…",
       "geo": { "lat": 36.56, "lng": 136.65 },
       "sns": { "web": "https://example.com", "twitter": null, "instagram": "https://instagram.com/aaa", "facebook": null },
-      "image": "/stores/izakaya-aaa.webp"
+      "image": "/stores/1.webp"
     },
     {
-      "id": "sakebar-bbb",
+      "id": 2,
       "name": "日本酒バーBBB",
       "area": "香林坊",
       "sns": { "web": null, "twitter": null, "instagram": null, "facebook": null }
@@ -119,15 +124,21 @@ export type Participations = { year: number; participations: Participation[] };
   "participations": [
     {
       "year": 2025,
-      "store_id": "izakaya-aaa",
+      "store_id": 1,
       "brewery_id": "brewery-zzz",
-      "hours": [{ "open": "15:00", "close": "21:00" }]
+      "salesStartTime": "2025-10-01T15:00:00",
+      "salesEndTime": "2025-10-01T21:00:00",
+      "appetizer": "地元野菜の煮物、能登産小魚の南蛮漬け",
+      "appetizerPrice": 800
     },
     {
       "year": 2025,
-      "store_id": "sakebar-bbb",
+      "store_id": 2,
       "brewery_id": "brewery-zzz",
-      "hours": []
+      "salesStartTime": "2025-10-01T16:00:00",
+      "salesEndTime": "2025-10-01T22:00:00",
+      "salesBreakStartTime": "2025-10-01T18:00:00",
+      "salesBreakEndTime": "2025-10-01T19:00:00"
     }
   ]
 }
@@ -176,9 +187,9 @@ export const load = async ({ fetch }) => {
     .map((p) => {
       const store = byStore.get(p.store_id);
       const brewery = byBrewery.get(p.brewery_id);
-      return store ? { year, store, brewery, hours: p.hours } : null;
+      return store ? { year, store, brewery, participation: p } : null;
     })
-    .filter((row): row is { year: number; store: Store; brewery?: Brewery; hours: Hours[] } => !!row);
+    .filter((row): row is { year: number; store: Store; brewery?: Brewery; participation: Participation } => !!row);
 
   return { year, list };
 };
@@ -204,7 +215,7 @@ export const load = async ({ fetch, params }) => {
     throw error(404, 'Not found');
   }
   const brewery = breweries.find((b) => b.id === part.brewery_id);
-  return { year, store, brewery, hours: part.hours };
+  return { year, store, brewery, participation: part };
 };
 ```
 
@@ -227,6 +238,20 @@ export const load = async ({ fetch, params }) => {
 - 2024/2023 のデータが旧構成の場合は、参照側で吸収するか段階的に新構成へ移行
 - 年度間で構造差分が生じる場合は、参照時に安全なフォールバックを実装
 - 年度ごとの参加情報のみで一覧/詳細を構成できることを原則とし、マスターと分離する
+
+### データ移行戦略
+
+#### 既存データからの変換
+- 店舗ID: 既存の数値IDをそのまま使用（互換性維持）
+- 営業時間: 既存の ISO8601 形式をそのまま利用
+- 酒蔵情報: ネストされた `kuramoto` から brewery_id への参照に変換
+- 画像ファイル: 既存の数値ID形式（`1.webp`）をそのまま維持
+
+#### 移行手順
+1. 既存 stores.json から店舗マスターと参加情報を分離
+2. 酒蔵情報の抽出とマスター化（brewery_id は kebab-case で新規作成）
+3. 年度別 participations.json の生成
+4. SNS情報のフォーマット統一（null値の明示的設定）
 
 ## 10. 関連リンク
 
