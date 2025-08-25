@@ -15,19 +15,40 @@
 
 ## 1. デザイントークン
 
-- カラー（HEX）
-  - primary: `#8F2E14`（ベンガラ）
-  - accent: `#C9A063`（金）
-  - background: `#FAFAF9`
-  - text: `#0B0B0B`
+- **Kanazawa Palette v2**
+  - **brand.primary**: `#7A2814`（ベンガラ）
+  - **brand.primaryTint**: `#F2E4E0`（ベンガラ薪色）
+  - **brand.accent**: `#B48945`（金・文字不可）
+  - **brand.accentBg**: `#EFE6D7`（帯・まとまり用の背景）
+  - **support.indigo**: `#1E3A56`（加賀藍: リンク/Secondary）
+  - **support.moss**: `#2F5D50`（苔: 成功/タグ）
+  - **neutral.bg**: `#F5F2EC`（全ページの地）
+  - **neutral.surface**: `#FFFDF9`（カード/ヘッダー面）
+  - **neutral.border**: `#EAE6DD`（1pxボーダー）
+  - **neutral.text**: `#121212`（本文）
+  - **neutral.muted**: `#666666`（副文）
+  - **neutral.subtle**: `#999999`（補足）
 
-- CSS 変数（`:root` の例）
+- CSS 変数（Kanazawa Palette v2）
   ```css
   :root {
-    --color-primary: #8F2E14;
-    --color-accent:  #C9A063;
-    --color-bg:      #FAFAF9;
-    --color-text:    #0B0B0B;
+    /* ブランドカラー */
+    --brand-primary: #7A2814;     /* ベンガラ */
+    --brand-primary-tint: #F2E4E0; /* ベンガラ薪色 */
+    --brand-accent: #B48945;      /* 金（文字不可） */
+    --brand-accent-bg: #EFE6D7;   /* 帯・まとまり用の背景 */
+    
+    /* サポートカラー */
+    --support-indigo: #1E3A56;    /* 加賀藍: リンク/Secondary */
+    --support-moss: #2F5D50;      /* 苔: 成功/タグ */
+    
+    /* ニュートラルカラー */
+    --neutral-bg: #F5F2EC;        /* 全ページの地 */
+    --neutral-surface: #FFFDF9;   /* カード/ヘッダー面 */
+    --neutral-border: #EAE6DD;    /* 1pxボーダー */
+    --neutral-text: #121212;      /* 本文 */
+    --neutral-muted: #666666;     /* 副文 */
+    --neutral-subtle: #999999;    /* 補足 */
   }
   ```
 
@@ -38,17 +59,26 @@
     extend: {
       colors: {
         primary: 'var(--color-primary)',
-        accent:  'var(--color-accent)',
-        bg:      'var(--color-bg)',
-        text:    'var(--color-text)'
+        accent: 'var(--color-accent)',
+        secondary: 'var(--color-secondary)',
+        bg: 'var(--color-bg)',
+        text: 'var(--color-text)',
+        success: 'var(--color-success)',
+        warning: 'var(--color-warning)',
+        error: 'var(--color-error)',
+        info: 'var(--color-info)'
       }
     }
   }
   ```
 
-- 運用
-  - 濃淡/透明度はユーティリティまたは `opacity-*` を併用し、色数は最小限を維持
-  - フォーカスリングは原則 `--color-accent`
+- **役割ルール**
+  - **背景**: `neutral.bg` を全ページ最背面
+  - **面**: カード/ヘッダー/フッターは `neutral.surface`、境界は `neutral.border`
+  - **帯**: セクションのまとまりに `brand.accentBg`、その上に白面を載せる
+  - **本文**: 常に `neutral.text`、**金（brand.accent）は本文に使わない**
+  - **リンク/Secondary**: `support.indigo`
+  - **Primary CTA**: `brand.primary` × 白文字
 
 ---
 
@@ -99,7 +129,9 @@
 ## 5. アクセシビリティ（a11y）
 
 - 原則
-  - コントラスト: WCAG AA 準拠（`#FAFAF9` × `#0B0B0B` を基準）
+  - コントラスト: WCAG AA 準拠（`neutral.bg` × `neutral.text` を基準）
+  - アンチエイリアス: `-webkit-font-smoothing: antialiased` でテキストレンダリングを最適化
+  - **完了条件**: `body` 背景が `#F5F2EC`、カード/ヘッダー/フッターが `#FFFDF9`、帯セクションに `#EFE6D7` を使用
   - フォーカス: `:focus-visible` によるリング（`outline-2 outline-offset-2`）
   - キーボード操作: 全主要操作がタブ移動で成立
 - Skip link（必須）

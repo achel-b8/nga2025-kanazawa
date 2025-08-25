@@ -2,10 +2,39 @@
 
 /* カスタムプロパティ（デザイントークン） */
 :root {
-  /* カラーパレット */
-  --color-primary: #0284c7;
-  --color-primary-hover: #0369a1;
-  --color-primary-light: #e0f2fe;
+  /* Kanazawa Palette v2 - ブランドカラー */
+  --brand-primary: #7A2814; /* ベンガラ */
+  --brand-primary-tint: #F2E4E0; /* ベンガラ薪色 */
+  --brand-accent: #B48945; /* 金（文字不可） */
+  --brand-accent-bg: #EFE6D7; /* 帯・まとまり用の背景 */
+  
+  /* サポートカラー */
+  --support-indigo: #1E3A56; /* 加賀藍: リンク/Secondary */
+  --support-moss: #2F5D50; /* 苔: 成功/タグ */
+  
+  /* ニュートラルカラー */
+  --neutral-bg: #F5F2EC; /* 全ページの地 */
+  --neutral-surface: #FFFDF9; /* カード/ヘッダー面 */
+  --neutral-border: #EAE6DD; /* 1pxボーダー */
+  --neutral-text: #121212; /* 本文 */
+  --neutral-muted: #666666; /* 副文 */
+  --neutral-subtle: #999999; /* 補足 */
+  
+  /* 状態カラーの派生 */
+  --success-light: #E8F2ED;
+  --warning-light: #F7F0E3;
+  --error-light: #F7E6E5;
+  --info-light: #E7ECF3;
+  
+  /* 旧互換用エイリアス（非推奨） */
+  --color-primary: var(--brand-primary);
+  --color-accent: var(--brand-accent);
+  --color-bg: var(--neutral-bg);
+  --color-text: var(--neutral-text);
+  --color-secondary: var(--support-indigo);
+  --color-primary-light: var(--brand-primary-tint);
+  --color-accent-light: var(--brand-accent-bg);
+  --color-success: var(--support-moss);
   
   /* タイポグラフィ */
   --font-family-base: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
@@ -34,10 +63,12 @@
 
 /* ベーススタイル */
 body {
-  font-family: var(--font-family-base);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
   line-height: 1.6;
-  color: #111827;
-  background-color: #ffffff;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* アクセシビリティ対応 */
@@ -54,24 +85,48 @@ body {
 }
 
 /* フォーカス管理 */
-.focus-ring {
-  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+.focus-ring:focus-visible {
+  outline: none;
+  background-color: var(--color-accent-light);
+  transition: background-color 0.2s ease;
+}
+
+:focus-visible {
+  outline: none;
 }
 
 /* ボタンベーススタイル */
 .btn-base {
-  @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-colors duration-200;
-  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+  @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200;
 }
 
 .btn-primary {
-  @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-colors duration-200;
-  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
-  @apply bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800;
+  @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200;
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
 }
 
 .btn-secondary {
-  @apply inline-flex items-center justify-center px-4 py-2 border text-sm font-medium rounded-md transition-colors duration-200;
-  @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
-  @apply bg-white text-blue-600 border-blue-600 hover:bg-blue-50 active:bg-blue-100;
+  @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200;
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-info);
+  opacity: 0.9;
+}
+
+.btn-accent {
+  @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200;
+  background-color: var(--color-accent);
+  color: white;
+}
+
+.btn-accent:hover {
+  background-color: var(--color-accent-hover);
 }
