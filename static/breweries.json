@@ -1,0 +1,174 @@
+{
+  "breweries": [
+    {
+      "id": "w",
+      "name": "W",
+      "prefecture": "岐阜",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": null,
+        "websiteUrl": "https://www.watanabeshuzouten.com/"
+      }
+    },
+    {
+      "id": "三笑楽",
+      "name": "三笑楽",
+      "prefecture": "富山",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/sansyouraku/",
+        "instagramUrl": "https://www.instagram.com/sansyouraku_sake/",
+        "websiteUrl": "https://www.sansyouraku.jp/index.html"
+      }
+    },
+    {
+      "id": "上川大雪",
+      "name": "上川大雪",
+      "prefecture": "北海道",
+      "snsUrls": {
+        "twitterUrl": "https://twitter.com/kamikawa_sake",
+        "facebookUrl": "https://www.facebook.com/ryokyuugura/",
+        "instagramUrl": "https://www.instagram.com/kamikawataisetsushuzo/",
+        "websiteUrl": "https://kamikawa-taisetsu.co.jp/"
+      }
+    },
+    {
+      "id": "京の春",
+      "name": "京の春",
+      "prefecture": "京都",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/mukaisyuzou/",
+        "websiteUrl": "https://www.kuramoto-mukai.jp/"
+      }
+    },
+    {
+      "id": "大江山",
+      "name": "大江山",
+      "prefecture": "石川",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/matsunami_sakebrewery/",
+        "websiteUrl": "https://www.o-eyama.com/"
+      }
+    },
+    {
+      "id": "奥能登の白菊",
+      "name": "奥能登の白菊",
+      "prefecture": "石川",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/hakuto_shiragiku/",
+        "websiteUrl": "http://www.hakutousyuzou.jp/"
+      }
+    },
+    {
+      "id": "帆波",
+      "name": "帆波",
+      "prefecture": "富山",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/hongoushuzou/",
+        "instagramUrl": null,
+        "websiteUrl": "https://uozushuzo.co.jp/"
+      }
+    },
+    {
+      "id": "御所泉",
+      "name": "御所泉",
+      "prefecture": "石川",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": null,
+        "websiteUrl": null
+      }
+    },
+    {
+      "id": "早瀬浦",
+      "name": "早瀬浦",
+      "prefecture": "福井",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": null,
+        "websiteUrl": null
+      }
+    },
+    {
+      "id": "永平寺白龍",
+      "name": "永平寺白龍",
+      "prefecture": "福井",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/jizakegura.hakuryu/",
+        "websiteUrl": "https://yoshida-brewery.jp/"
+      }
+    },
+    {
+      "id": "白龍",
+      "name": "白龍",
+      "prefecture": "福井",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": null,
+        "websiteUrl": "https://hakuryu-sake.com/"
+      }
+    },
+    {
+      "id": "翔空",
+      "name": "翔空",
+      "prefecture": "新潟",
+      "snsUrls": {
+        "twitterUrl": "https://x.com/sho_ku_tanaka",
+        "facebookUrl": "https://www.facebook.com/LagoonBrewery",
+        "instagramUrl": "https://www.instagram.com/lagoon_brewery/",
+        "websiteUrl": "https://www.lagoon-brewery.com/"
+      }
+    },
+    {
+      "id": "谷泉",
+      "name": "谷泉",
+      "prefecture": "石川",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://ja-jp.facebook.com/taniizumi.jp/",
+        "instagramUrl": "https://www.instagram.com/tsuruno_sake_brewery/",
+        "websiteUrl": "https://www.taniizumi.com/"
+      }
+    },
+    {
+      "id": "超久",
+      "name": "超久",
+      "prefecture": "和歌山",
+      "snsUrls": {
+        "twitterUrl": "https://twitter.com/nakanoBC",
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/nakanobc/",
+        "websiteUrl": "https://www.nakano-group.co.jp/"
+      }
+    },
+    {
+      "id": "遊穂",
+      "name": "遊穂",
+      "prefecture": "石川",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/mioyasake/",
+        "instagramUrl": null,
+        "websiteUrl": "http://mioya-sake.com/"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "2025.1.0",
+    "lastUpdated": "2025-08-24T23:11:58.315Z",
+    "totalBreweries": 15
+  }
+}

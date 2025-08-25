@@ -1,0 +1,190 @@
+{
+  "participations": [
+    {
+      "storeId": 1,
+      "breweryId": "帆波",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "16:00",
+        "endTime": "22:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "梅煮物、めぎすのつみれ、味噌豆腐",
+      "appetizerPrice": 1000,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.298Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 2,
+      "breweryId": "w",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "15:00",
+        "endTime": "22:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "クリームチーズのドライフルーツ和え、小バイ煮付け",
+      "appetizerPrice": 900,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 3,
+      "breweryId": "谷泉",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "17:00",
+        "endTime": "22:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "おつまみ3種盛り",
+      "appetizerPrice": 1000,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 4,
+      "breweryId": "永平寺白龍",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "14:00",
+        "endTime": "22:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "酒の肴5種盛り（能登柚餅子揚げ真薯など）",
+      "appetizerPrice": 1000,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 5,
+      "breweryId": "三笑楽",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "13:30",
+        "endTime": "19:30",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "日替わりおばんざい3品",
+      "appetizerPrice": 900,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 6,
+      "breweryId": "奥能登の白菊",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "17:00",
+        "endTime": "22:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "おでん盛り合わせ",
+      "appetizerPrice": 800,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 7,
+      "breweryId": "京の春",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "17:00",
+        "endTime": "22:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "すっぽんの冷製茶碗蒸し",
+      "appetizerPrice": 900,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 8,
+      "breweryId": "大江山",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "14:00",
+        "endTime": "24:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "蕎麦粉のタコス「猪肉」",
+      "appetizerPrice": 700,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 9,
+      "breweryId": "翔空",
+      "year": 2024,
+      "eventBusinessHours": {
+        "startTime": "15:00",
+        "endTime": "24:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "沼パン（煮干しバターのバケット）",
+      "appetizerPrice": 1000,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    }
+  ],
+  "metadata": {
+    "version": "2025.1.0",
+    "year": 2024,
+    "lastUpdated": "2025-08-24T23:11:58.315Z",
+    "totalParticipations": 9
+  }
+}

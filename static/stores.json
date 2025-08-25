@@ -1,0 +1,171 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "神鮮 和さび",
+      "address": "石川県金沢市本町2-5-9",
+      "phoneNumber": "0762601181",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.1785873016693!2d136.64900660000004!3d36.573913999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336f4cd32dbf%3A0xd5e084d009dffcf3!2z5ZKM44GV44Gz56We6a6u!5e0!3m2!1sja!2sjp!4v1694151506588!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/wasabi.2013/",
+        "instagramUrl": "https://www.instagram.com/shinsenwasabi/",
+        "websiteUrl": "https://www.shinsen-wasabi.jp/"
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": null
+    },
+    {
+      "id": 2,
+      "name": "酒粋醍醐 金沢店",
+      "address": "石川県金沢市安江町19-4",
+      "phoneNumber": "0762560028",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": "https://www.google.com/maps/embed?pb=...",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/daigo_kanazawa/",
+        "websiteUrl": "https://syusuidaigo.com/kanazawa.html"
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": null
+    },
+    {
+      "id": 3,
+      "name": "日本酒バル 金澤酒趣",
+      "address": "石川県金沢市尾山町5-10.",
+      "phoneNumber": "0762257339",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.356674308794!2d136.6554509!3d36.5696218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff833e328ccd37d%3A0xffb290c37d186fec!2z5pel5pys6YWS44OQ44OrIOmHkea-pOmFkui2ow!5e0!3m2!1sja!2sjp!4v1694151305110!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/kanazawa.sake/",
+        "instagramUrl": null,
+        "websiteUrl": null
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": "1回転目は予約制、その後は整理券制"
+    },
+    {
+      "id": 4,
+      "name": "日々魚数寄 東木",
+      "address": "石川県金沢市尾張町1-5-3",
+      "phoneNumber": "0762244266",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.3411201075455!2d136.66275!3d36.56999670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8336bec0e5775%3A0x25762536b2a23b12!2z5pel44CF6a2a5pWw5a-EIOadseacqA!5e0!3m2!1sja!2sjp!4v1694151352185!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/hibisakanazukitouboku/",
+        "instagramUrl": "https://www.instagram.com/hibisakanazuki_tohboku/",
+        "websiteUrl": "https://hibisakanazuki.gorp.jp/"
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": null
+    },
+    {
+      "id": 5,
+      "name": "日本酒真琴",
+      "address": "石川県金沢市東山1丁目5-3",
+      "phoneNumber": "0762053800",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": "https://www.google.com/maps/embed?pb=...",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/nihonsyu.makoto/",
+        "instagramUrl": "https://www.instagram.com/sake_makoto_kanazawa/",
+        "websiteUrl": null
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": null
+    },
+    {
+      "id": 6,
+      "name": "おでん よし坊",
+      "address": "石川県金沢市香林坊2-4-21",
+      "phoneNumber": "0762218048",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3204.56376984157!2d136.6530764!3d36.56462990000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8337efd0e6a5b%3A0x91aaa5ec619b84d8!2z44KI44GX5Z2K!5e0!3m2!1sja!2sjp!4v1694151635983!5m2!1sja!2sjp",
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/odenyosibou/",
+        "instagramUrl": "https://www.instagram.com/oden_yoshibou/",
+        "websiteUrl": null
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": null
+    },
+    {
+      "id": 7,
+      "name": "炭焼き小料理 かなざわ吟",
+      "address": "石川県金沢市木倉町4−4",
+      "phoneNumber": "0762565571",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": null,
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": "https://www.facebook.com/p/%E7%82%AD%E7%84%BC%E3%81%8D%E5%B0%8F%E6%96%99%E7%90%86-%E3%81%8B%E3%81%AA%E3%81%96%E3%82%8F-%E5%90%9F-100046244902044/?_rdr",
+        "instagramUrl": "https://www.instagram.com/kanazawa_gin_washoku/",
+        "websiteUrl": "https://r901900.gorp.jp/"
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": null
+    },
+    {
+      "id": 8,
+      "name": "bitte",
+      "address": "石川県金沢市木倉町2-10",
+      "phoneNumber": "0762226171",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": null,
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/bitte_katamachi/?hl=ja",
+        "websiteUrl": "https://bittekatamachi.com/"
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": "蔵元さん滞在は22時まで"
+    },
+    {
+      "id": 9,
+      "name": "大衆ビストロNIL",
+      "address": "石川県金沢市片町1-12-17 アーバンビル 301",
+      "phoneNumber": "0762540432",
+      "prefecture": "石川県",
+      "city": "金沢市",
+      "mapUrl": null,
+      "snsUrls": {
+        "twitterUrl": null,
+        "facebookUrl": null,
+        "instagramUrl": "https://www.instagram.com/taishubistronil/",
+        "websiteUrl": null
+      },
+      "seat": null,
+      "timeLimit": null,
+      "additionalNotes": "蔵元さん滞在は22時まで"
+    }
+  ],
+  "metadata": {
+    "version": "2025.1.0",
+    "lastUpdated": "2025-08-24T23:11:58.315Z",
+    "totalStores": 9
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "participations": [
+    {
+      "storeId": 1,
+      "breweryId": "上川大雪",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "16:00",
+        "endTime": "21:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "ぜいたく煮",
+      "appetizerPrice": 500,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 2,
+      "breweryId": "白龍",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "12:00",
+        "endTime": "20:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "自家製酒の肴3点盛",
+      "appetizerPrice": 700,
+      "breweryVisit": {
+        "startTime": "12:00",
+        "endTime": "20:00"
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 3,
+      "breweryId": "御所泉",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "13:00",
+        "endTime": "21:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "付き出し4種盛り",
+      "appetizerPrice": 700,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 4,
+      "breweryId": "谷泉",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "12:00",
+        "endTime": "20:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "大梅貝旨煮と豆腐の味噌漬け",
+      "appetizerPrice": 500,
+      "breweryVisit": {
+        "startTime": "12:00",
+        "endTime": "20:00"
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 5,
+      "breweryId": "w",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "13:00",
+        "endTime": "20:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "奈良漬クリームチーズ",
+      "appetizerPrice": 600,
+      "breweryVisit": {
+        "startTime": "13:00",
+        "endTime": "20:00"
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.299Z",
+      "updatedAt": "2025-08-24T23:11:58.299Z"
+    },
+    {
+      "storeId": 6,
+      "breweryId": "三笑楽",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "11:30",
+        "endTime": "20:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "日替わりおばんざい3品",
+      "appetizerPrice": 700,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.300Z",
+      "updatedAt": "2025-08-24T23:11:58.300Z"
+    },
+    {
+      "storeId": 7,
+      "breweryId": "遊穂",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "11:30",
+        "endTime": "19:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "豚団子入りおでん盛り合わせ",
+      "appetizerPrice": 500,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.300Z",
+      "updatedAt": "2025-08-24T23:11:58.300Z"
+    },
+    {
+      "storeId": 8,
+      "breweryId": "早瀬浦",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "13:00",
+        "endTime": "21:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "なすとジビエのオランダ煮",
+      "appetizerPrice": 500,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.300Z",
+      "updatedAt": "2025-08-24T23:11:58.300Z"
+    },
+    {
+      "storeId": 9,
+      "breweryId": "超久",
+      "year": 2023,
+      "eventBusinessHours": {
+        "startTime": "13:00",
+        "endTime": "20:00",
+        "breakStartTime": null,
+        "breakEndTime": null
+      },
+      "appetizer": "桜海老と冬瓜煮",
+      "appetizerPrice": 500,
+      "breweryVisit": {
+        "startTime": null,
+        "endTime": null
+      },
+      "isActive": true,
+      "registeredAt": "2025-08-24T23:11:58.300Z",
+      "updatedAt": "2025-08-24T23:11:58.300Z"
+    }
+  ],
+  "metadata": {
+    "version": "2025.1.0",
+    "year": 2023,
+    "lastUpdated": "2025-08-24T23:11:58.315Z",
+    "totalParticipations": 9
+  }
+}
