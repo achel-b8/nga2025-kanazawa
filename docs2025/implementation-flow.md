@@ -31,11 +31,11 @@ npx tailwindcss init -p
 ```
 
 **タスク**:
-- [ ] Tailwind CSS パッケージインストール
-- [ ] `tailwind.config.js` 設定
-- [ ] `src/app.css` 作成（デザイントークン含む）
-- [ ] Carbon Components の段階的削除計画策定
-- [ ] 動作確認（簡単なスタイル適用）
+- [x] Tailwind CSS パッケージインストール
+- [x] `tailwind.config.js` 設定
+- [x] `src/app.css` 作成（デザイントークン含む）
+- [x] Carbon Components の段階的削除計画策定
+- [x] 動作確認（簡単なスタイル適用）
 
 ### 2.2 型定義の整備
 **所要時間**: 1-2時間  
@@ -43,12 +43,12 @@ npx tailwindcss init -p
 **成果物**: TypeScript型定義
 
 **タスク**:
-- [ ] `src/types/stores.d.ts` 作成
+- [x] `src/types/stores.d.ts` 作成
   - Store, Brewery, Participation 型
-- [ ] `src/types/constants.ts` 作成
+- [x] `src/types/constants.ts` 作成
   - Prefecture 型の分離
-- [ ] 既存型定義との互換性確認
-- [ ] TypeScript コンパイル確認
+- [x] 既存型定義との互換性確認
+- [x] TypeScript コンパイル確認
 
 ### 2.3 データ移行スクリプト作成
 **所要時間**: 2-3時間  
@@ -56,13 +56,13 @@ npx tailwindcss init -p
 **成果物**: 移行スクリプト、新形式JSONファイル
 
 **タスク**:
-- [ ] `scripts/migrate-data.js` 作成
-- [ ] 既存 `stores.json` の解析
-- [ ] 店舗マスターの抽出（`/static/stores.json`）
-- [ ] 酒蔵マスターの生成（`/static/breweries.json`）
-- [ ] 参加情報の分離（`/static/2025/participations.json`）
-- [ ] 2024/2023年度データの変換（段階的）
-- [ ] データ整合性の検証
+- [x] `scripts/migrate-data.js` 作成
+- [x] 既存 `stores.json` の解析
+- [x] 店舗マスターの抽出（`/static/stores.json`）
+- [x] 酒蔵マスターの生成（`/static/breweries.json`）
+- [x] 参加情報の分離（`/static/2024/participations.json`）
+- [x] 2024/2023年度データの変換（段階的）
+- [x] データ整合性の検証
 
 ### 2.4 基本ユーティリティ実装
 **所要時間**: 1-2時間  
@@ -70,12 +70,12 @@ npx tailwindcss init -p
 **成果物**: データ処理ユーティリティ
 
 **タスク**:
-- [ ] `src/lib/utils/participation.ts` 作成
+- [x] `src/lib/utils/participation.ts` 作成
   - 初参加/継続回数算出ロジック
-- [ ] `src/lib/data/stores.ts` 作成
+- [x] `src/lib/data/stores.ts` 作成
   - データ結合・変換ロジック
-- [ ] 単体テストの作成
-- [ ] 動作確認
+- [x] 単体テストの作成
+- [x] 動作確認
 
 ## 3. フェーズ2: コアコンポーネント実装
 
@@ -277,10 +277,10 @@ npx tailwindcss init -p
 ### 7.2 フェーズ完了時の総合チェック
 
 #### フェーズ1完了時
-- [ ] Tailwind CSS が正常に動作
-- [ ] 新形式JSONファイルが生成されている
-- [ ] 型定義が正しく設定されている
-- [ ] データユーティリティが動作する
+- [x] Tailwind CSS が正常に動作
+- [x] 新形式JSONファイルが生成されている
+- [x] 型定義が正しく設定されている
+- [x] データユーティリティが動作する
 
 #### フェーズ2完了時
 - [ ] 全コンポーネントが Storybook/テストで確認済み
